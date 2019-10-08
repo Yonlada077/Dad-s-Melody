@@ -23,18 +23,39 @@ body {
 }
 .about {
     position: fixed;
-    width: 174px;
-    height: 197px;
+    width: 183px;
+    height: 204px;
     top: 25%;
     left: 17%;
 }
 .band{
     position: fixed;
-    width: 196px;
-    height: 126px;
-    top: 20%;
+    width: 221px;
+    height: 147px;
+    top: 14%;
     left: 64%;
 }
+.musical{
+    position: fixed;
+    width: 370px;
+    height: 240px;
+    top: 61%;
+    left: 6%;
+}
+.music{
+    position: fixed;
+    width: 245px;
+    height: 297px;
+    top: 50%;
+    left: 73%;
+}
+/* .f1 {
+    position: fixed;
+    width: 24%;
+    height: 64%;
+    top: 22%;
+    left: 27%;
+} */
 
 
 
