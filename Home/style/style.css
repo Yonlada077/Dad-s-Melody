@@ -1,0 +1,110 @@
+/* Main css */
+body {
+    background-image: url('../image/bg-01.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.rama9 {
+    position: fixed;
+    width: 409px;
+    height: 662px;
+    top: 10%;
+    left: 35%;
+}
+.dadtext{
+    position: fixed;
+    width: 466px;
+    height: 149px;
+    top: 5%;
+    left: 5%;
+}
+.about {
+    position: fixed;
+    width: 174px;
+    height: 197px;
+    top: 25%;
+    left: 17%;
+}
+.band{
+    position: fixed;
+    width: 196px;
+    height: 126px;
+    top: 20%;
+    left: 64%;
+}
+
+
+
+/* Responsive style */
+
+/* medium */
+@media only screen and (max-width: 900px) {
+
+
+    .rama9 {
+        position: fixed;
+        width: 234px;
+        height: 391px;
+        top: 50%;
+        left: 36%;
+    }
+    .dadtext{
+        position: fixed;
+        width: 365px;
+        height: 105px;
+        top: 0.5%;
+        left: 32%;
+    }
+    .about {
+        position: fixed;
+        width: 134px;
+        height: 155px;
+        top: 14.5%;
+        left: 32%;
+    }
+    .band{
+        position: fixed;
+        width: 154px;
+        height: 102px;
+        top: 26%;
+        left: 55%;
+    }
+}
+
+/* Small */
+@media only screen and (max-width: 510px) {
+
+
+    .rama9 {
+        position: fixed;
+        width: 209px;
+        height: 347px;
+        top: 53%;
+        left: 30%;
+    }
+    .dadtext{
+        position: fixed;
+        width: 288px;
+        height: 105px;
+        top: 2%;
+        left: 32%;
+}
+    .about {
+        position: fixed;
+        width: 118px;
+        height: 140px;
+        top: 17%;
+        left: 24%;
+    }
+    .band{
+        position: fixed;
+        width: 149px;
+        height: 99px;
+        top: 28%;
+        left: 55%;
+    }
+}
+
