@@ -23,8 +23,8 @@ body {
 }
 .about {
     position: fixed;
-    width: 183px;
-    height: 204px;
+    width: 12%;
+    height: 28%;
     top: 25%;
     left: 17%;
 }
@@ -36,8 +36,8 @@ body {
 }
 .band{
     position: fixed;
-    width: 221px;
-    height: 147px;
+    width: 15%;
+    height: 20%;
     top: 14%;
     left: 64%;
 }
