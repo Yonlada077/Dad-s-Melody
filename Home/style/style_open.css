@@ -1,0 +1,144 @@
+/* Main css */
+body {
+    background-image: url('../image/bg-00.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.title {
+    position: fixed;
+    width: 40%;
+    height: 25%;
+    top: 30%;
+    left: 30%;
+}
+.butt {
+    position: fixed;
+    width: 15%;
+    height: 15%;
+    top: 50%;
+    left: 40%;
+}
+.pic1 {
+    position: fixed;
+    width: 40%;
+    height: 80%;
+    top: 10%;
+    left: 4%;
+}
+.pic2 {
+    position: fixed;
+    width: 20%;
+    height: 20%;
+    top: 56%;
+    left: 25%;
+}
+.pic3 {
+    position: fixed;
+    width: 25%;
+    height: 37%;
+    top: 46%;
+    left: 52%;
+}
+.pic4 {
+    position: fixed;
+    width: 19%;
+    height: 45%;
+    top: 81%;
+    left: 38%;
+}
+.pic5 {
+    position: fixed;
+    width: 5%;
+    height: 5%;
+    top: 31%;
+    left: 42%;
+}
+.pic6 {
+    position: fixed;
+    width: 20%;
+    height: 25%;
+    top: -7%;
+    left: 35%;
+}
+.pic7 {
+    position: fixed;
+    width: 20%;
+    height: 25%;
+    top: 30%;
+    left: 35%;
+}
+.pic7 {
+    position: fixed;
+    width: 7%;
+    height: 9%;
+    top: 4%;
+    left: 36%;
+}
+.pic8 {
+    position: fixed;
+    width: 22%;
+    height: 49%;
+    top: -19%;
+    left: 6%;
+}
+.pic9 {
+    position: fixed;
+    width: 55%;
+    height: 63%;
+    top: -31%;
+    left: 55%;
+}
+.pic10 {
+    position: fixed;
+    width: 47%;
+    height: 53%;
+    top: 73%;
+    left: -6%;
+}
+.pic11 {
+    position: fixed;
+    width: 7%;
+    height: 10%;
+    top: 71%;
+    left: 3%;
+}
+.pic12 {
+    position: fixed;
+    width: 22%;
+    height: 50%;
+    top: 53%;
+    left: 87%;
+}
+.pic13 {
+    position: fixed;
+    width: 25%;
+    height: 50%;
+    top: 74%;
+    left: 82%;
+}
+.pic14 {
+    position: fixed;
+    width: 49%;
+    height: 50%;
+    top: 2%;
+    left: 75%;
+}
+/* Responsive style */
+
+/* medium */
+@media only screen and (max-width: 900px) {
+
+
+    
+}
+
+/* Small */
+@media only screen and (max-width: 510px) {
+
+
+    
+}
+
