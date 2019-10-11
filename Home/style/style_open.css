@@ -126,6 +126,33 @@ body {
     top: 2%;
     left: 75%;
 }
+
+.cloud1 {
+    position: fixed;
+    width: 67%;
+    height: 46%;
+    top: 30%;
+    left: 30%;
+    opacity: 0.7;
+    animation: cloud-move 50s var(--fn, linear) infinite;
+    will-change: transform;
+}
+
+.cloud2 {
+    position: fixed;
+    width: 80%;
+    height: 59%;
+    top: 42%;
+    left: -20%;
+    opacity: 1.7;
+    animation: cloud-move 50s var(--fn, linear) infinite;
+    will-change: transform;
+}
+
+@keyframes cloud-move {
+  from { transform: translateX(-110%) }
+  to { transform: translateX(110vw) }
+}
 /* Responsive style */
 
 /* medium */
