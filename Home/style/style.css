@@ -85,7 +85,7 @@ body {
 /* Responsive style */
 
 /* medium */
-@media only screen and (max-width: 900px) {
+@media  only screen and (max-width: 800px) {
 
 
     .rama9 {
@@ -124,7 +124,7 @@ body {
     }
 
 /* Small */
-@media only screen and (max-width: 510px) {
+@media only screen and (max-width: 420px) {
 
 
     .rama9 {
