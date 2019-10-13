@@ -122,12 +122,12 @@ body {
 
 .cloud1 {
     position: fixed;
-    width: 80%;
-    height: 56%;
-    top: 30%;
+    width: 75%;
+    height: 50%;
+    top: 64%;
     left: 30%;
-    opacity: 0.7;
-    animation: cloud-move 50s var(--fn, linear) infinite;
+    opacity: 1.7;
+    animation: cloud-move 30s var(--fn, linear) infinite;
     will-change: transform;
 }
 @keyframes cloud-move {
@@ -138,10 +138,10 @@ body {
     position: fixed;
     width: 80%;
     height: 59%;
-    top: 42%;
+    top: -5%;
     left: -20%;
-    opacity: 0.7;
-    animation: clouds-move 50s var(--fn, linear) infinite;
+    opacity: 2.7;
+    animation: clouds-move 30s var(--fn, linear) infinite;
     will-change: transform;
 }
 
@@ -264,6 +264,26 @@ body {
     height: 36%;
     top: 81%;
     left: 38%;
-}  
+}
+.cloud1 {
+    position: fixed;
+    width: 115%;
+    height: 35%;
+    top: 77%;
+    left: 30%;
+    opacity: 1.7;
+    animation: cloud-move 30s var(--fn, linear) infinite;
+    will-change: transform;
+}
+.cloud2 {
+    position: fixed;
+    width: 107%;
+    height: 35%;
+    top: -1%;
+    left: -20%;
+    opacity: 2.7;
+    animation: clouds-move 30s var(--fn, linear) infinite;
+    will-change: transform;
+}
 }
 
