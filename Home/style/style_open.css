@@ -72,10 +72,10 @@ body {
 }
 .pic8 {
     position: fixed;
-    width: 28%;
+    width: 24%;
     height: 61%;
-    top: -27%;
-    left: -3%;
+    top: -26%;
+    left: -1%;
 }
 .pic9 {
     position: fixed;
@@ -117,7 +117,7 @@ body {
     width: 49%;
     height: 70%;
     top: -3%;
-    left: 79%;
+    left: 75%;
 }
 
 .cloud1 {
