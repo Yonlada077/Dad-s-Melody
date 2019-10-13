@@ -9,65 +9,58 @@ body {
 
 .title {
     position: fixed;
-    width: 40%;
-    height: 25%;
-    top: 30%;
-    left: 30%;
+    width: 58%;
+    height: 38%;
+    top: 27%;
+    left: 27%;
 }
 .butt {
     position: fixed;
     width: 15%;
     height: 15%;
-    top: 50%;
-    left: 40%;
+    top: 63%;
+    left: 45%;
 }
 .pic1 {
     position: fixed;
-    width: 40%;
-    height: 80%;
+    width: 51%;
+    height: 86%;
     top: 10%;
-    left: 4%;
+    left: -4%;
 }
 .pic2 {
     position: fixed;
     width: 20%;
     height: 20%;
-    top: 56%;
-    left: 25%;
+    top: 60%;
+    left: 23%;
 }
 .pic3 {
     position: fixed;
     width: 25%;
     height: 37%;
-    top: 46%;
-    left: 52%;
+    top: 57%;
+    left: 63%;
 }
 .pic4 {
     position: fixed;
-    width: 19%;
-    height: 45%;
-    top: 81%;
-    left: 38%;
+    width: 24%;
+    height: 59%;
+    top: 74%;
+    left: 42%;
 }
 .pic5 {
     position: fixed;
     width: 5%;
     height: 5%;
-    top: 31%;
-    left: 42%;
+    top: 29%;
+    left: 45%;
 }
 .pic6 {
     position: fixed;
     width: 20%;
     height: 25%;
     top: -7%;
-    left: 35%;
-}
-.pic7 {
-    position: fixed;
-    width: 20%;
-    height: 25%;
-    top: 30%;
     left: 35%;
 }
 .pic7 {
@@ -79,30 +72,30 @@ body {
 }
 .pic8 {
     position: fixed;
-    width: 22%;
-    height: 49%;
-    top: -19%;
-    left: 6%;
+    width: 28%;
+    height: 61%;
+    top: -27%;
+    left: -3%;
 }
 .pic9 {
     position: fixed;
-    width: 55%;
-    height: 63%;
-    top: -31%;
-    left: 55%;
+    width: 44%;
+    height: 76%;
+    top: -37%;
+    left: 62%;
 }
 .pic10 {
     position: fixed;
-    width: 47%;
-    height: 53%;
-    top: 73%;
+    width: 45%;
+    height: 82%;
+    top: 61%;
     left: -6%;
 }
 .pic11 {
     position: fixed;
     width: 7%;
     height: 10%;
-    top: 71%;
+    top: 64%;
     left: 3%;
 }
 .pic12 {
@@ -122,9 +115,9 @@ body {
 .pic14 {
     position: fixed;
     width: 49%;
-    height: 50%;
-    top: 2%;
-    left: 75%;
+    height: 70%;
+    top: -3%;
+    left: 79%;
 }
 
 .cloud1 {
