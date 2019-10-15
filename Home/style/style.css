@@ -126,34 +126,53 @@ body {
 /* Small */
 @media only screen and (max-width: 420px) {
 
-
     .rama9 {
         position: fixed;
-        width: 209px;
-        height: 347px;
-        top: 53%;
-        left: 30%;
+        width: 58%;
+        height: 60%;
+        top: 54%;
+        left: 17%;
     }
-    .dadtext{
+    .dadtext {
         position: fixed;
         width: 288px;
         height: 105px;
-        top: 2%;
-        left: 32%;
-}
+        top: 0%;
+        left: 17%;
+    }
     .about {
         position: fixed;
-        width: 118px;
-        height: 140px;
-        top: 17%;
-        left: 24%;
+        width: 29%;
+        height: 21%;
+        top: 15%;
+        left: 17%;
     }
-    .band{
+    .band {
         position: fixed;
-        width: 149px;
-        height: 99px;
-        top: 28%;
-        left: 55%;
+        width: 39%;
+        height: 15%;
+        top: 21%;
+        left: 57%;
+    }
+    .musical {
+        position: fixed;
+        width: 51%;
+        height: 21%;
+        top: 36%;
+        left: 11%;
+    }
+    .music {
+        position: f.musical {
+            position: fixed;
+            width: 51%;
+            height: 21%;
+            top: 39%;
+            left: 11%;
+        }ixed;
+        width: 26%;
+        height: 22%;
+        top: 39%;
+        left: 68%;
     }
 }
 }
