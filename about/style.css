@@ -1,0 +1,21 @@
+body {
+    background-image: url('./ประวัติ/ฉาก.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+.dadtext{
+        position: fixed;
+        width: 14%;
+        /* height: 20%; */
+        top: 0%;
+        left: 3%;
+}
+.menuu{
+    position: fixed;
+    width: 3%;
+    /* height: 20%; */
+    top: 6%;
+    left: 80%;
+}

@@ -106,7 +106,7 @@ body {
     transition-timing-function: ease-in-out;
 }
 
-/* .f1 {
+.f1 {
     position: fixed;
     width: 24%;
     height: 64%;
@@ -140,7 +140,7 @@ body {
         height: 15%;
         top: 48%;
         left: 56%;
-    } */
+    }
 
 
 /* Responsive style */
