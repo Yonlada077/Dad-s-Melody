@@ -6,6 +6,40 @@ body {
     background-position: center center;
     background-size: cover;
 }
+.cloud1 {
+    position: fixed;
+    width: 50%;
+    height: auto;
+    top: 52%;
+    left: -14%;
+}
+.cloud2 {
+    position: fixed;
+    width: 64%;
+    height: auto;
+    top: 42%;
+    left: 57%;
+}
+.cloud3 {
+    position: fixed;
+    width: 64%;
+    height: auto;
+    top: 26%;
+    left: -14%;
+}
+.cloud4 {
+    position: fixed;
+    width: 64%;
+    height: auto;
+    top: 11%;
+    left: 61%;
+}
+.glitter1 {
+    position: fixed;
+    width: 26%;
+    top: 11%;
+    left: 40%;
+}
 
 .rama9 {
     position: fixed;
@@ -14,19 +48,19 @@ body {
     top: 10%;
     left: 35%;
 }
-.dadtext{
+.dadtext {
     position: fixed;
-    width: 25%;
-    height: 20%;
+    width: 32%;
+    /* height: 20%; */
     top: 0%;
-    left: 5%;
+    left: 11%;
 }
 .about {
     position: fixed;
-    width: 12%;
-    height: 28%;
-    top: 25%;
-    left: 17%;
+    width: 15%;
+    /* height: 26%; */
+    top: 24%;
+    left: 18%;
 }
 
 .about:hover {
@@ -34,24 +68,24 @@ body {
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
 }
-.band{
+.band {
     position: fixed;
-    width: 15%;
-    height: 20%;
+    width: 17%;
+    /* height: 20%; */
     top: 14%;
-    left: 64%;
+    left: 66%;
 }
 .band:hover {
     transform: scale(1.3);
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
 }
-.musical{
+.musical {
     position: fixed;
-    width: 24%;
-    height: 30%;
+    width: 26%;
+    /* height: 30%; */
     top: 61%;
-    left: 6%;
+    left: 11%;
 }
 .musical:hover {
     transform: scale(1.3);
@@ -59,12 +93,12 @@ body {
     transition-timing-function: ease-in-out;
 }
 
-.music{
+.music {
     position: fixed;
-    width: 15%;
-    height: 34%;
+    width: 16%;
+    /* height: 34%; */
     top: 50%;
-    left: 73%;
+    left: 72%;
 }
 .music:hover {
     transform: scale(1.3);
@@ -72,88 +106,174 @@ body {
     transition-timing-function: ease-in-out;
 }
 
-/* .f1 {
+.f1 {
     position: fixed;
     width: 24%;
     height: 64%;
     top: 22%;
     left: 27%;
-} */
-
+}
+.f2 {
+    position: fixed;
+    width: 17%;
+    height: 41%;
+    top: 49%;
+    left: 24%;
+}
+.f3 {
+    position: fixed;
+    width: 23%;
+    height: 66%;
+    top: 39%;
+    left: 50%;
+}
+.f4 {
+    position: fixed;
+    width: 23%;
+    height: 62%;
+    top: 60%;
+    left: 48%;
+}
+.f5 {
+        position: fixed;
+        width: 8%;
+        height: 15%;
+        top: 48%;
+        left: 56%;
+    }
 
 
 /* Responsive style */
 
 /* medium */
-@media only screen and (max-width: 900px) {
+@media  only screen and (max-width: 800px) {
+    .cloud3 {
+        position: fixed;
+        width: 50%;
+        height: auto;
+        top: 26%;
+        left: -14%;
+    }
+    .cloud4 {
+        position: fixed;
+        width: 60%;
+        height: auto;
+        top: 11%;
+        left: 61%;
+    }
 
 
     .rama9 {
         position: fixed;
-        width: 25%;
-        height: 50%;
-        top: 53%;
-        left: 36%;
+        width: 52%;
+        height: auto;
+        top: 50%;
+        left: 20%;
     }
-    .dadtext{
+    .dadtext {
         position: fixed;
-        width: 55%;
-        height: 14%;
+        width: 48%;
+        /* height: 14%; */
         top: 0%;
         left: 32%;
     }
     .about {
         position: fixed;
-        width: 15%;
-        height: 20%;
-        top: 17.5%;
-        left: 30%;
+        width: 26%;
+        height: auto;
+        top: 14.5%;
+        left: 20%;
     }
-
 
     .about:hover {
         transform: scale(1.5);
     }
 
-    .band{
+    .band {
         position: fixed;
-        width: 18%;
-        height: 15%;
-        top: 26%;
-        left: 55%;
+        width: 31%;
+        height: auto;
+        top: 22%;
+        left: 53%;
     }
-
+    .musical {
+        position: fixed;
+        width: 45%;
+        height: auto;
+        top: 37%;
+        left: 13%;
+    }
+    .musical:hover {
+        transform: scale(1.5);
+    }
+    .music {
+        position: fixed;
+        width: 25%;
+        height: auto;
+        top: 39%;
+        left: 63%;
+    }
+    .music:hover {
+        transform: scale(1.5);
+    }
+    .cloud3 {
+        position: fixed;
+        width: 91%;
+        height: auto;
+        top: 21%;
+        left: -23%;
+    }
+    .cloud4 {
+        position: fixed;
+        width: 107%;
+        height: auto;
+        top: 11%;
+        left: 27%;
+    }
 /* Small */
-@media only screen and (max-width: 510px) {
-
+@media only screen and (max-width: 420px) {
 
     .rama9 {
         position: fixed;
-        width: 209px;
-        height: 347px;
-        top: 53%;
-        left: 30%;
+        width: 73%;
+        /* height: 90%; */
+        top: 52%;
+        left: 8%;
     }
-    .dadtext{
+    .dadtext {
         position: fixed;
-        width: 288px;
-        height: 105px;
-        top: 2%;
-        left: 32%;
-}
+        width: 60%;
+        /* height: 105px; */
+        top: 0%;
+        left: 26%;
+    }
     .about {
         position: fixed;
-        width: 118px;
-        height: 140px;
-        top: 17%;
-        left: 24%;
+        width: 31%;
+        /* height: 26%; */
+        top: 12%;
+        left: 16%;
     }
-    .band{
+    .band {
         position: fixed;
-        width: 149px;
-        height: 99px;
-        top: 28%;
-        left: 55%;
+        width: 39%;
+        /* height: 20%; */
+        top: 19%;
+        left: 54%;
     }
-}
+    .musical {
+        position: fixed;
+        width: 53%;
+        height: auto;
+        top: 37%;
+        left: 11%;
+    }
+    .music {
+        position: fixed;
+        width: 31%;
+        height: auto;
+        top: 36%;
+        left: 62%;
+    }
+    }
 }
