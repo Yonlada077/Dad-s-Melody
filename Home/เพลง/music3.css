@@ -11,6 +11,7 @@ body {
   font-family: 'Trirong', sans-serif;
   font-weight: 500;
   background-image: url('./img/แบ้คกราว-01.png');
+  overflow-x: hidden;
 
 }
 
@@ -287,8 +288,8 @@ li a:hover {
   position: absolute;
   top: 95%;
   left: 44%;
-  width: 38%
-
+  width: 42%;
+  height: 115%;
 }
 .textname{
   position: absolute;
@@ -308,25 +309,24 @@ li a:hover {
   line-height: 175%;
   top: 143%;
   left: -18%;
-  width: 149%;
+  width: 187%;
   padding-left: 6%;
-
   font-size: 17px;
   color: #71512e;
 }
 
 .papaermusic {
     position: absolute;
-    top: 148%;
+    top: 169%;
     left: 14%;
     width: 59%;
-    height: 118%;
+    height: 165%;
 }
 .textmusic{
   position: absolute;
   z-index: 3;
   margin-top: 0;
-  top: 164%;
+  top: 192%;
   left: 30%;
   font-weight: 900;
   color: #71512e;
@@ -362,13 +362,13 @@ li a:hover {
     z-index: 3;
     position: absolute;
     width: 14%;
-    top: 157%;
-    left: 70%;
+    top: 177%;
+    left: 73%;
 }
 .pic4 {
     position: absolute;
     width: 41%;
-    top: 158%;
+    top: 179%;
     left: -16%;
 }
 .pic5 {
@@ -379,56 +379,56 @@ li a:hover {
 }
 .pic6 {
     position: absolute;
-    width: 33%;
-    top: 117%;
+    width: 39%;
+    top: 135%;
     left: -5%;
 }
 .pic7 {
     z-index: 2;
     position: absolute;
     width: 33%;
-    top: 196%;
+    top: 222%;
     left: 77%;
 }
 .pic8 {
     z-index: 2;
     position: absolute;
     width: 33%;
-    top: 207%;
+    top: 268%;
     left: 43%;
 }
 .pic9 {
     z-index: -1;
     position: absolute;
     width: 33%;
-    top: 103%;
-    left: 11%;
+    top: 132%;
+    left: 15%;
 }
 .pic10 {
     position: absolute;
-    width: 25%;
-    top: 251%;
-    left: 17%;
+    width: 15%;
+    top: 231%;
+    left: 5%;
 }
 .pic11 {
     z-index: -1;
     position: absolute;
-    width: 26%;
-    top: 176%;
-    left: 65%;
+    width: 35%;
+    top: 198%;
+    left: 62%;
 }
 .pic12 {
     z-index: -1;
     position: absolute;
-    width: 36%;
-    top: 272%;
-    left: 25%;
+    width: 30%;
+    top: 309%;
+    left: 41%;
 }
 .footer {
    z-index: 3;
    position: absolute;
    left: -50%;
-   bottom:-240%;
+   bottom:-263%;
    width: 200%;
    background-color: #373B44;
    color: white;
@@ -442,28 +442,13 @@ ul {
     left: 23%;
     width: 58%;
 }
+
 }
 @media screen and (max-width: 1200px) {
 ul {
     left: 20%;
     width: 64%;
     top: 82%;
-}
-.papaername {
-    z-index: 3;
-    position: absolute;
-    top: 95%;
-    left: 44%;
-    width: 41%;
-}
-.papaermusic {
-    top: 148%;
-    left: 14%;
-    width: 59%;
-    height: 100%;
-}
-.textname {
-    top: 102%;
 }
 .title {
     left: 38%;
@@ -477,28 +462,14 @@ ul {
     line-height: 138%;
     font-size: 15px;
 }
-.pic3 {
-    z-index: 3;
-    position: absolute;
-    width: 16%;
-    top: 154%;
-    left: 73%;
-}
 .pic8 {
-    top: 197%;
-}
-.pic10 {
-    width: 25%;
-    top: 226%;
-    left: 17%;
+    top: 259%;
 }
 .pic12 {
     top: 247%;
 }
-.footer {
-    bottom: -209%;
 }
-}
+
 @media screen and (max-width: 1100px) {
 ul {
     left: 14%;
@@ -523,7 +494,7 @@ p {
     width: 47%;
 }
 .papaermusic {
-    top: 152%;
+    top: 144%;
     left: 12%;
     width: 67%;
 }
@@ -541,12 +512,7 @@ p {
     top: 117%;
 }
 .pic9 {
-    top: 107%;
-}
-.pic10 {
-    width: 25%;
-    top: 240%;
-    left: 17%;
+    top: 114%;
 }
 .pic3 {
     z-index: 3;
@@ -558,17 +524,17 @@ p {
 .pic11 {
     z-index: -1;
     position: absolute;
-    width: 27%;
-    top: 180%;
-    left: 69%;
+    width: 42%;
+    top: 169%;
+    left: 61%;
 }
 .pic8 {
-    top: 204%;
+    top: 274%;
     left: 50%;
 }
 .pic12 {
-    top: 257%;
-    left: 27%;
+    top: 262%;
+    left: 60%;
 }
 .pic7 {
     width: 28%;
@@ -601,10 +567,10 @@ ul {
     top: 76%;
 }
 .describe1 {
-    left: -20%;
+    left: -23%;
     padding-left: 6%;
-    font-size: 14px;
-    width: 144%;
+    font-size: 15px;
+    width: 127%;
 }
 .textname {
     top: 103%;
@@ -614,7 +580,7 @@ ul {
     letter-spacing: 2px;
 }
 .papaermusic {
-    top: 140%;
+    top: 133%;
     left: 9%;
     width: 81%;
 }
@@ -641,13 +607,13 @@ ul {
 .pic11 {
     z-index: -1;
     position: absolute;
-    width: 27%;
-    top: 164%;
-    left: 72%;
+    width: 39%;
+    top: 157%;
+    left: 63%;
 }
 .pic8 {
     width: 33%;
-    top: 197%;
+    top: 261%;
     left: 54%;
 }
 .pic7 {
@@ -656,13 +622,8 @@ ul {
     left: 85%;
 }
 .pic12 {
-    top: 244%;
-    left: 24%;
-}
-.pic10 {
-    width: 25%;
-    top: 227%;
-    left: 17%;
+    top: 252%;
+    left: 69%;
 }
 }
 @media screen and (max-width: 767px) {
@@ -712,17 +673,16 @@ ul {
     font-size: 15px;
 }
 .papaername {
-    top: 78%;
+    top: 82%;
     left: 42%;
     width: 50%;
-    height: 65%;
 }
 .textname {
-    top: 84%;
+    top: 88%;
     left: 52%;
     font-size: 17px;
     letter-spacing: 1px;
-}
+  }
 .describe1 {
     left: -17%;
     padding-left: 6%;
@@ -730,36 +690,31 @@ ul {
     width: 127%;
 }
 .pic9 {
-    top: 94%;
+    top: 105%;
 }
 .pic6 {
-    top: 100%;
+    top: 107%;
     left: -9%;
 }
 .pic3 {
     width: 19%;
-    top: 123%;
+    top: 120%;
     left: 75%;
 }
-.pic5 {
-    top: 187%;
-    left: -7%;
-}
 .pic11 {
-    width: 29%;
-    top: 141%;
-    left: 71%;
+    width: 39%;
+    top: 127%;
+    left: 67%;
 }
 .pic7 {
     width: 28%;
-    top: 161%;
+    top: 144%;
     left: 86%;
 }
 .papaermusic {
-    top: 119%;
+    top: 114%;
     left: 5%;
     width: 86%;
-    height: 83%;
 }
 .textmusic {
     top: 132%;
@@ -775,28 +730,22 @@ ul {
 }
 .pic10 {
     top: 195%;
-    left: 20%;
+    left: 5%;
 }
 .pic8 {
     width: 33%;
-    top: 168%;
+    top: 221%;
     left: 57%;
 }
 .pic12 {
-    top: 206%;
-    left: 27%;
-}
-.pic4 {
-    position: absolute;
-    width: 41%;
-    top: 128%;
-    left: -16%;
+    top: 215%;
+    left: 69%;
 }
 .footer {
     z-index: 3;
     position: absolute;
     left: -50%;
-    bottom: -145%;
+    bottom: -166%;
     width: 200%;
     background-color: #373B44;
     color: white;
@@ -905,17 +854,10 @@ ul {
     top: 52%;
     left: 79%;
 }
-.describe1 {
-    left: -8%;
-    padding-left: 6%;
-    font-size: 11px;
-    width: 127%;
-}
 .papaername {
     top: 68%;
     left: 42%;
     width: 60%;
-    height: 57%;
 }
 .textname {
     top: 74%;
@@ -928,16 +870,16 @@ ul {
     left: -9%;
 }
 .pic9 {
-    top: 86%;
+    top: 89%;
 }
 .papaermusic {
-    top: 104%;
+    top: 94%;
     left: 5%;
     width: 93%;
-    height: 83%;
+    height: 149%;
 }
 .textmusic {
-    top: 116%;
+    top: 113%;
     font-size: 15px;
     left: 23%;
 }
@@ -947,9 +889,9 @@ ul {
     left: 83%;
 }
 .pic11 {
-    width: 26%;
-    top: 124%;
-    left: 74%;
+    width: 39%;
+    top: 116%;
+    left: 71%;
 }
 .pic7 {
     width: 28%;
@@ -967,23 +909,23 @@ ul {
     left: -7%;
 }
 .pic10 {
-    top: 178%;
-    left: 19%;
+    top: 155%;
+    left: 5%;
 }
 .pic8 {
     width: 33%;
-    top: 157%;
+    top: 205%;
     left: 62%;
 }
 .pic12 {
-    top: 188%;
-    left: 24%;
+    top: 201%;
+    left: 75%;
 }
 .footer {
     z-index: 3;
     position: absolute;
     left: -50%;
-    bottom: -115%;
+    bottom: -144%;
     width: 200%;
     background-color: #373B44;
     color: white;
@@ -1046,13 +988,12 @@ ul {
     top: 32%;
 }
 .papaername {
-    top: 51%;
+    top: 50%;
     left: 42%;
     width: 60%;
-    height: 50%
 }
 .textname {
-    top: 56%;
+    top: 54%;
     left: 52%;
     font-size: 12px;
     letter-spacing: 1px;
@@ -1061,16 +1002,16 @@ ul {
     left: -17%;
     padding-left: 8%;
     font-size: 9px;
-    width: 133%;
+    width: 123%;
 }
 .papaermusic {
-    top: 85%;
+    top: 65%;
     left: 3%;
     width: 93%;
-    height: 70%;
+    height: 139%;
 }
 .textmusic {
-    top: 94%;
+    top: 83%;
     font-size: 11px;
     left: 16%;
 }
@@ -1096,30 +1037,30 @@ ul {
 }
 .pic3 {
     width: 19%;
-    top: 88%;
+    top: 79%;
     left: 84%;
 }
 .pic4 {
     position: absolute;
     width: 41%;
-    top: 99%;
+    top: 83%;
     left: -16%;
 }
 .pic5 {
-    top: 149%;
+    top: 123%;
     left: -7%;
 }
 .pic6 {
-    top: 72%;
+    top: 60%;
     left: -9%;
 }
 .pic9 {
-    top: 68%;
+    top: 57%;
 }
 .pic11 {
-    width: 27%;
-    top: 98%;
-    left: 73%;
+    width: 39%;
+    top: 85%;
+    left: 71%;
 }
 .pic7 {
     width: 28%;
@@ -1128,22 +1069,22 @@ ul {
 }
 .pic8 {
     width: 33%;
-    top: 132%;
+    top: 171%;
     left: 59%;
 }
 .pic12 {
-    top: 152%;
-    left: 28%;
+    top: 167%;
+    left: 75%;
 }
 .pic10 {
-    top: 146%;
-    left: 22%;
+    top: 110%;
+    left: 5%;
 }
 .footer {
     z-index: 3;
     position: absolute;
     left: -50%;
-    bottom: -71%;
+    bottom: -104%;
     width: 200%;
     background-color: #373B44;
     color: white;
