@@ -348,19 +348,33 @@ li a:hover {
   color: #71512e;
 }
 
+@keyframes bounceIn {
+  0% {transform: scale(0.1);
+    opacity: 0;}
+  60% {transform: scale(1.2);
+    opacity: 1;}
+  100% {transform: scale(1);}
+}
+
 .pic1 {
+      animation-name: bounceIn;
+    animation-duration: 3s;
     position: absolute;
     width: 20%;
     top: 30%;
     left: -7%;
 }
 .pic2 {
+      animation-name: bounceIn;
+    animation-duration: 3s;
     position: absolute;
     width: 24%;
     top: 65%;
     left: 82%;
 }
 .pic3 {
+      animation-name: bounceIn;
+    animation-duration: 3s;
     z-index: 3;
     position: absolute;
     width: 14%;
@@ -368,24 +382,32 @@ li a:hover {
     left: 70%;
 }
 .pic4 {
+      animation-name: bounceIn;
+    animation-duration: 3s;
     position: absolute;
     width: 41%;
     top: 158%;
     left: -16%;
 }
 .pic5 {
+      animation-name: bounceIn;
+    animation-duration: 3s;
     position: absolute;
     width: 22%;
     top: 253%;
     left: -7%;
 }
 .pic6 {
+      animation-name: bounceIn;
+    animation-duration: 3s;
     position: absolute;
     width: 39%;
     top: 108%;
     left: -9%;
 }
 .pic7 {
+      animation-name: bounceIn;
+    animation-duration: 3s;
     z-index: 2;
     position: absolute;
     width: 33%;
@@ -393,6 +415,8 @@ li a:hover {
     left: 77%;
 }
 .pic8 {
+      animation-name: bounceIn;
+    animation-duration: 3s;
     z-index: 2;
     position: absolute;
     width: 33%;
@@ -401,6 +425,8 @@ li a:hover {
 }
 
 .pic9 {
+      animation-name: bounceIn;
+    animation-duration: 3s;
     z-index: -1;
     position: absolute;
     width: 33%;
@@ -408,12 +434,16 @@ li a:hover {
     left: 15%;
 }
 .pic10 {
+      animation-name: bounceIn;
+    animation-duration: 3s;
     position: absolute;
     width: 14%;
     top: 207%;
     left: 6%;
 }
 .pic11 {
+      animation-name: bounceIn;
+    animation-duration: 3s;
     z-index: -1;
     position: absolute;
     width: 37%;
@@ -421,6 +451,8 @@ li a:hover {
     left: 59%;
 }
 .pic12 {
+      animation-name: bounceIn;
+    animation-duration: 3s;
     z-index: 0;
     position: absolute;
     width: 29%;
@@ -428,6 +460,8 @@ li a:hover {
     left: 38%;
 }
 .pic13 {
+      animation-name: bounceIn;
+    animation-duration: 3s;
     z-index: 0;
     position: absolute;
     width: 23%;

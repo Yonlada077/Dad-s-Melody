@@ -346,19 +346,32 @@ li a:hover {
   color: #71512e;
 }
 
+@keyframes bounceIn {
+  0% {transform: scale(0.1);
+    opacity: 0;}
+  60% {transform: scale(1.2);
+    opacity: 1;}
+  100% {transform: scale(1);}
+}
 .pic1 {
     position: absolute;
     width: 20%;
     top: 30%;
     left: -7%;
+        animation-name: bounceIn;
+    animation-duration: 3s;
 }
 .pic2 {
+      animation-name: bounceIn;
+    animation-duration: 3s;
     position: absolute;
     width: 24%;
     top: 65%;
     left: 82%;
 }
 .pic3 {
+      animation-name: bounceIn;
+    animation-duration: 3s;
     z-index: 3;
     position: absolute;
     width: 14%;
@@ -366,24 +379,32 @@ li a:hover {
     left: 73%;
 }
 .pic4 {
+      animation-name: bounceIn;
+    animation-duration: 3s;
     position: absolute;
     width: 41%;
     top: 179%;
     left: -16%;
 }
 .pic5 {
+      animation-name: bounceIn;
+    animation-duration: 3s;
     position: absolute;
     width: 22%;
     top: 253%;
     left: -7%;
 }
 .pic6 {
+      animation-name: bounceIn;
+    animation-duration: 3s;
     position: absolute;
     width: 39%;
     top: 135%;
     left: -5%;
 }
 .pic7 {
+      animation-name: bounceIn;
+    animation-duration: 3s;
     z-index: 2;
     position: absolute;
     width: 33%;
@@ -391,6 +412,8 @@ li a:hover {
     left: 77%;
 }
 .pic8 {
+      animation-name: bounceIn;
+    animation-duration: 3s;
     z-index: 2;
     position: absolute;
     width: 33%;
@@ -398,6 +421,8 @@ li a:hover {
     left: 43%;
 }
 .pic9 {
+      animation-name: bounceIn;
+    animation-duration: 3s;
     z-index: -1;
     position: absolute;
     width: 33%;
@@ -405,12 +430,16 @@ li a:hover {
     left: 15%;
 }
 .pic10 {
+      animation-name: bounceIn;
+    animation-duration: 3s;
     position: absolute;
     width: 15%;
     top: 231%;
     left: 5%;
 }
 .pic11 {
+      animation-name: bounceIn;
+    animation-duration: 3s;
     z-index: -1;
     position: absolute;
     width: 35%;
@@ -418,6 +447,8 @@ li a:hover {
     left: 62%;
 }
 .pic12 {
+      animation-name: bounceIn;
+    animation-duration: 3s;
     z-index: -1;
     position: absolute;
     width: 30%;

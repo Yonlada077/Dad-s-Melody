@@ -347,17 +347,28 @@ li a:hover {
   color: #71512e;
 }
 
+@keyframes bounceIn {
+  0% {transform: scale(0.1);
+    opacity: 0;}
+  60% {transform: scale(1.2);
+    opacity: 1;}
+  100% {transform: scale(1);}
+}
 .pic1 {
     position: absolute;
     width: 20%;
     top: 30%;
     left: -7%;
+    animation-name: bounceIn;
+    animation-duration: 3s;
 }
 .pic2 {
     position: absolute;
     width: 24%;
     top: 65%;
     left: 82%;
+    animation-name: bounceIn;
+    animation-duration: 3s;
 }
 .pic3 {
     z-index: 3;
@@ -365,24 +376,33 @@ li a:hover {
     width: 14%;
     top: 157%;
     left: 70%;
+    animation-name: bounceIn;
+    animation-duration: 3s;
 }
 .pic4 {
     position: absolute;
     width: 41%;
     top: 158%;
     left: -16%;
+    animation-name: bounceIn;
+    animation-duration: 3s;
 }
 .pic5 {
     position: absolute;
     width: 22%;
     top: 253%;
     left: -7%;
+    animation-name: bounceIn;
+    animation-duration: 3s;
 }
 .pic6 {
     position: absolute;
     width: 39%;
     top: 105%;
-    left: -5%
+    left: -5%;
+    animation-name: bounceIn;
+    animation-duration: 3s;    
+
 }
 .pic7 {
     z-index: 2;
@@ -390,6 +410,8 @@ li a:hover {
     width: 33%;
     top: 196%;
     left: 77%;
+    animation-name: bounceIn;
+    animation-duration: 3s;
 }
 .pic8 {
     z-index: 2;
@@ -397,6 +419,8 @@ li a:hover {
     width: 33%;
     top: 285%;
     left: 47%;
+    animation-name: bounceIn;
+    animation-duration: 3s;    
 }
 
 .pic9 {
@@ -405,12 +429,16 @@ li a:hover {
     width: 33%;
     top: 103%;
     left: 11%;
+    animation-name: bounceIn;
+    animation-duration: 3s;    
 }
 .pic10 {
     position: absolute;
     width: 12%;
     top: 230%;
     left: 8%;
+    animation-name: bounceIn;
+    animation-duration: 3s;
 }
 .pic11 {
     z-index: -1;
@@ -418,6 +446,8 @@ li a:hover {
     width: 37%;
     top: 171%;
     left: 59%;
+    animation-name: bounceIn;
+    animation-duration: 3s;    
 }
 .pic12 {
     z-index: -1;
@@ -425,6 +455,8 @@ li a:hover {
     width: 22%;
     top: 268%;
     left: 57%;
+    animation-name: bounceIn;
+    animation-duration: 3s;
 }
 .footer {
    z-index: 3;
