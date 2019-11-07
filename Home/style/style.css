@@ -67,24 +67,42 @@ body {
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
 }
+@keyframes bounceIn {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.2);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
 
 .f1 {
     position: fixed;
     width: 21%;
     top: 43%;
     left: 51%;
+    animation-name: bounceIn;
+    animation-duration: 5s;
 }
 .f2 {
     position: fixed;
     width: 23%;
     top: 24%;
     left: 26%;
+    animation-name: bounceIn;
+    animation-duration: 3s;
 }
 .lcloud {
     position: fixed;
     width: 83%;
     top: 21%;
     left: -26%;
+
 }
 .rcloud {
     position: fixed;
@@ -92,7 +110,7 @@ body {
     top: 21%;
     left: 38%;
 }
-.cloud1 {
+/* .cloud1 {
     position: fixed;
     width: 75%;
     height: 50%;
@@ -122,28 +140,7 @@ body {
   @keyframes clouds-move {
     from { transform: translateX(110vw) }
     to { transform: translateX(-110%) }
-  }
-/*.f3 {
-    position: fixed;
-    width: 23%;
-    height: 66%;
-    top: 39%;
-    left: 50%;
-}
-.f4 {
-    position: fixed;
-    width: 23%;
-    height: 62%;
-    top: 60%;
-    left: 48%; */
-/* }
-.f5 {
-        position: fixed;
-        width: 8%;
-        height: 15%;
-        top: 48%;
-        left: 56%;
-    } */
+  } */
 
 
 /* Responsive style */
@@ -216,6 +213,8 @@ body {
         width: 33%;
         top: 43%;
         left: 51%;
+        animation-name: bounceIn;
+        animation-duration: 3s;
     }    
     .f2 {
         position: fixed;
