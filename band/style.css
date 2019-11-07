@@ -19,11 +19,11 @@ body {
 }
 
 .logo {
-    width: 17%;
-    z-index: 3;
+    width: 16%;
+    z-index: 99;
     position: fixed;
-    top: 0;
-    left: 99%;
+    top: 20px;
+    left: -1%;
 }
 
 .navbar {
@@ -45,7 +45,7 @@ body {
     border: none;
     outline: none;
     color: #71512e;
-    padding: 42px 16px;
+    padding: 60px 16px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -464,8 +464,8 @@ body {
         width: 17%;
         z-index: 3;
         position: fixed;
-        top: 0;
-        left: 99%;
+        top: 18px;
+        left: 0%;
     }
     
     .navbar {
