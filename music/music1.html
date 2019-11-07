@@ -60,13 +60,8 @@ Click Record  Arm </br>To Turn record on/off.
 <div class="textname">
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“แสงเทียน”<br>
 (Candlelight Blues)
-<div class="describe1">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เพลงพระราชนิพนธ์ลำดับที่ 1<br>เพลงบลูส์พระราชนิพนธ์เพลงแรกที่ได้พระเจ้าวรวงศ์เธอพระองค์เจ้า
-จักรพันธ์เพ็ญศิรินิพนธ์คำร้องภาษา
-ไทยแต่ยังไม่โปรดเกล้าฯพระราชทาน
-ให้เผยแพร่ในเวลานั้นเพราะจะทรง
-แก้ไขทำนอง และคอร์ดบางตอน จึงเผยแพร่ได้ในเวลาต่อมา โดยได้
-รองศาสตราจารย์ สดใส พันธุมโกมล ประพันธ์คำร้องภาษาอังกฤษ
+<div class="describe1"  id="myTypingText">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </div>
 </div>
 
@@ -134,7 +129,7 @@ Click Record  Arm </br>To Turn record on/off.
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
 <script id="rendered-js">
-      $(".btn-off").hide();
+  $(".btn-off").hide();
   $('.btn-on').click(function() {
 
     $("#needle").addClass("needle-on");
@@ -171,6 +166,21 @@ Click Record  Arm </br>To Turn record on/off.
     }, 1000);
 
   });
+
+
+var myString = "เพลงพระราชนิพนธ์ลำดับที่ 1 เพลงบลูส์พระราชนิพนธ์เพลงแรกที่ได้พระเจ้าวรวงศ์เธอพระองค์เจ้าจักรพันธ์เพ็ญศิรินิพนธ์คำร้องภาษาไทยแต่ยังไม่โปรดเกล้าฯพระราชทานให้เผยแพร่ในเวลานั้นเพราะจะทรงแก้ไขทำนอง และคอร์ดบางตอน จึงเผยแพร่ได้ในเวลาต่อมา โดยได้รองศาสตราจารย์ สดใส พันธุมโกมล ประพันธ์คำร้องภาษาอังกฤษ";
+var myArray = myString.split("");
+var loopTimer;
+function frameLooper() {
+  if(myArray.length > 0) {
+    document.getElementById("myTypingText").innerHTML += myArray.shift();
+  } else {
+    clearTimeout(loopTimer); 
+                return false;
+  }
+  loopTimer = setTimeout('frameLooper()',15);
+}
+frameLooper();
     </script>
 </body>
 </html>

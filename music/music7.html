@@ -60,8 +60,8 @@ Click Record  Arm </br>To Turn record on/off.
 <div class="textname">
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“ลมหนาว”<br>
 (Love in Spring)
-<div class="describe1">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เพลงพระราชนิพนธ์ลำดับที่ 19<br>พระเจ้าวรวงศ์เธอพระองค์เจ้าจักรพันธ์เพ็ญศิริ เป็นผู้นิพนธ์คำร้องภาษาอังกฤษ และได้บรรเลงครั้งแรกในงานประจำปีของสมาคมนักเรียนเก่าอังกฤษในพระบรมราชูปถัมภ์ ณ เวทีลีลาศ สวนลุมพินี ในปี 2497 ต่อมา ท่านผู้หญิงสมโรจน์ สวัสดิกุล ณ อยุธยาแต่งคำร้องภาษาไทย
+<div class="describe1"  id="myTypingText">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </div>
 </div>
 
@@ -159,6 +159,21 @@ Click Record  Arm </br>To Turn record on/off.
     }, 1000);
 
   });
+
+var myString = "เพลงพระราชนิพนธ์ลำดับที่ 19 พระเจ้าวรวงศ์เธอพระองค์เจ้าจักรพันธ์เพ็ญศิริ เป็นผู้นิพนธ์คำร้องภาษาอังกฤษ และได้บรรเลงครั้งแรกในงานประจำปีของสมาคมนักเรียนเก่าอังกฤษในพระบรมราชูปถัมภ์ ณ เวทีลีลาศ สวนลุมพินี ในปี 2497 ต่อมา ท่านผู้หญิงสมโรจน์ สวัสดิกุล ณ อยุธยาแต่งคำร้องภาษาไทย";
+var myArray = myString.split("");
+var loopTimer;
+function frameLooper() {
+  if(myArray.length > 0) {
+    document.getElementById("myTypingText").innerHTML += myArray.shift();
+  } else {
+    clearTimeout(loopTimer); 
+                return false;
+  }
+  loopTimer = setTimeout('frameLooper()',15);
+}
+frameLooper();
+
     </script>
 </body>
 </html>

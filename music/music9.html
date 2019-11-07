@@ -60,10 +60,8 @@ Click Record  Arm </br>To Turn record on/off.
 <div class="textname">
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“ในดวงใจนิรันดร์”<br>
 &nbsp;&nbsp;&nbsp;(Still On My Mind)
-<div class="describe1">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เพลงพระราชนิพนธ์ลำดับที่ 37<br>
-    เพลงนี้เป็นเพลงที่พระบาทสมเด็จพระเจ้าอยู่หัวทรงพระราชนิพนธ์ทำนองและคำร้องภาษาอังกฤษด้วยพระองค์เองเป็นเพลงแรก ต่อมาทรงพระกรุณาโปรดเกล้า ฯ ให้ศาสตราจารย์ ดร.ประเสริฐ ณ นคร ประพันธ์คำร้องภาษาไทย
-
+<div class="describe1"  id="myTypingText">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </div>
 </div>
 
@@ -152,6 +150,20 @@ Click Record  Arm </br>To Turn record on/off.
     }, 1000);
 
   });
+
+var myString = "เพลงพระราชนิพนธ์ลำดับที่ 37 เพลงนี้เป็นเพลงที่พระบาทสมเด็จพระเจ้าอยู่หัวทรงพระราชนิพนธ์ทำนองและคำร้องภาษาอังกฤษด้วยพระองค์เองเป็นเพลงแรก ต่อมาทรงพระกรุณาโปรดเกล้า ฯ ให้ศาสตราจารย์ ดร.ประเสริฐ ณ นคร ประพันธ์คำร้องภาษาไทย";
+var myArray = myString.split("");
+var loopTimer;
+function frameLooper() {
+  if(myArray.length > 0) {
+    document.getElementById("myTypingText").innerHTML += myArray.shift();
+  } else {
+    clearTimeout(loopTimer); 
+                return false;
+  }
+  loopTimer = setTimeout('frameLooper()',15);
+}
+frameLooper();
     </script>
 </body>
 </html>

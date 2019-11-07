@@ -60,13 +60,8 @@ Click Record  Arm </br>To Turn record on/off.
 <div class="textname">
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“ชะตาชีวิต”<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(H.M. Blues)
-<div class="describe1">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เพลงพระราชนิพนธ์ลำดับที่ 5<br>
-เพลงแรกที่ทรงพระราชนิพนธ์หลังเสด็จ
-ขึ้นครองราชย์สมบัติและเสด็จพระราช
-ดำเนินไปทรงศึกษาต่อที่สวิตเซอร์แลนด์ และได้พระเจ้าวรวงศ์เธอพระองค์เจ้า
-จักรพันธ์เพ็ญศิริทรงพระนิพนธ์คำร้อง
-ภาษาอังกฤษ
+<div class="describe1" id="myTypingText">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </div>
 </div>
 
@@ -169,6 +164,21 @@ Click Record  Arm </br>To Turn record on/off.
     }, 1000);
 
   });
+
+var myString = "เพลงพระราชนิพนธ์ลำดับที่ 5 เพลงแรกที่ทรงพระราชนิพนธ์หลังเสด็จขึ้นครองราชย์สมบัติและเสด็จพระราชดำเนินไปทรงศึกษาต่อที่สวิตเซอร์แลนด์ และได้พระเจ้าวรวงศ์เธอพระองค์เจ้าจักรพันธ์เพ็ญศิริทรงพระนิพนธ์คำร้องภาษาอังกฤษ";
+var myArray = myString.split("");
+var loopTimer;
+function frameLooper() {
+  if(myArray.length > 0) {
+    document.getElementById("myTypingText").innerHTML += myArray.shift();
+  } else {
+    clearTimeout(loopTimer); 
+                return false;
+  }
+  loopTimer = setTimeout('frameLooper()',15);
+}
+frameLooper();
+
     </script>
 </body>
 </html>

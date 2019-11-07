@@ -60,10 +60,8 @@ Click Record  Arm </br>To Turn record on/off.
 <div class="textname">
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“ใกล้รุ่ง”<br>
 &nbsp;&nbsp;&nbsp;(Near Dawn)
-<div class="describe1">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เพลงพระราชนิพนธ์ลำดับที่ 4<br>
-    ได้ศาสตราจารย์ ดร.ประเสริฐ ณ นคร มาประพันธ์คำร้องภาษาไทย และท่าน
-ผู้หญิงนพคุณ ทองใหญ่ ณ อยุธยา ประพันธ์เนื้อร้องภาษาอังกฤษเช่นเคย โดยวงดนตรีสุนทราภรณ์นำออกบรรเลงครั้งแรกในวิทยุกรมประชาสัมพันธ์ ในปี 2489
+<div class="describe1"  id="myTypingText">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </div>
 </div>
 
@@ -158,6 +156,21 @@ Click Record  Arm </br>To Turn record on/off.
     }, 1000);
 
   });
+
+var myString = "เพลงพระราชนิพนธ์ลำดับที่ 4 ได้ศาสตราจารย์ ดร.ประเสริฐ ณ นคร มาประพันธ์คำร้องภาษาไทย และท่านผู้หญิงนพคุณ ทองใหญ่ ณ อยุธยา ประพันธ์เนื้อร้องภาษาอังกฤษเช่นเคย โดยวงดนตรีสุนทราภรณ์นำออกบรรเลงครั้งแรกในวิทยุกรมประชาสัมพันธ์ ในปี 2489";
+var myArray = myString.split("");
+var loopTimer;
+function frameLooper() {
+  if(myArray.length > 0) {
+    document.getElementById("myTypingText").innerHTML += myArray.shift();
+  } else {
+    clearTimeout(loopTimer); 
+                return false;
+  }
+  loopTimer = setTimeout('frameLooper()',15);
+}
+frameLooper();
+
     </script>
 </body>
 </html>
