@@ -362,6 +362,10 @@ body {
     left: 50%;
     width: 35%;
 }
+@keyframes title{
+	from{transform: rotate(-5deg);}
+    to{transform: rotate(10deg);}
+    }
 @keyframes bounceIn {
     0% {
       transform: scale(0.1);
@@ -1782,18 +1786,17 @@ body{
     }
     .prawat {
         position: absolute;
-        max-width: 93%;
-        margin-top: 131%;
-        margin-left: 79%;
+        max-width: 100%;
+        margin-top: 133%;
+        margin-left: 105%;
         z-index: 29;
     }
-    
     .allt {
         position: absolute;
         z-index: 29;
         max-width: 116%;
         height: 200rem;
-        right: -113%;
+        right: -119%;
         margin-top: 172%;
         /* overflow: scroll; */
     }
@@ -1984,17 +1987,17 @@ body{
     .f4 {
         position: absolute;
         margin-top: 760%;
-        left: -33%;
+        left: 13%;
         animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf4 {
-        width: 22em;
+        width: 17em;
     }
     .f5 {
         position: absolute;
         margin-top: 1019%;
-        left: -8%;
+        left: 26%;
         animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
@@ -2004,42 +2007,44 @@ body{
     .f6 {
         position: absolute;
         margin-top: 353%;
-        left: 200%;
+        left: 247%;
         animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf6 {
-        width: 17em;
+        width: 12em;
     }
     .f7 {
         position: absolute;
-        margin-top: 515%;
-        left: 186%;
+        margin-top: 529%;
+        left: 242%;
         animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf7 {
-        width: 24em;
+        width: 15em;
     }
     .f8 {
         position: absolute;
-        margin-top: 654%;
-        left: 190%;
+        margin-top: 663%;
+        left: 240%;
         animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf8 {
-        width: 26em;
+        width: 16em;
     }
+    
+    
     .f9 {
         position: absolute;
-        margin-top: 897%;
-        left: 197%;
+        margin-top: 908%;
+        left: 243%;
         animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf9 {
-        width: 23em;
+        width: 14em;
     }
 }
 
