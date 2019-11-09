@@ -19,8 +19,9 @@ body {
 }
 
 .logo {
-    width: 100%;
-    z-index: 99;
+    position: fixed;
+    width: 20%;
+    z-index: 1000;
 }
 
 .navbar {

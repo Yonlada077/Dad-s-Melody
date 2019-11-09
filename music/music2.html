@@ -60,9 +60,8 @@ Click Record  Arm </br>To Turn record on/off.
 <div class="textname">
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“ยามเย็น”<br>
 (Love at Sundown)
-<div class="describe1">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เพลงพระราชนิพนธ์ลำดับที่ 2<br> เพลงในจังหวะฟ็อกซ์ทร็อตที่ได้พระเจ้า
-วรวงศ์เธอพระองค์เจ้าจักรพันธ์เพ็ญศิริ นิพนธ์คำร้องภาษาไทย และท่านผู้หญิงนพคุณ ทองใหญ่ ณ อยุธยา แต่งคำร้องภาษาอังกฤษ แล้วพระราชทานให้ครูเอื้อ สุนทรสนาน บรรเลงในงานของสมาคมปราบวัณโรค ที่ เวทีลีลาศ สวนอัมพร ในปี 2489
+<div class="describe1" id="myTypingText">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </div>
 </div>
 
@@ -132,7 +131,7 @@ Click Record  Arm </br>To Turn record on/off.
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
 <script id="rendered-js">
-      $(".btn-off").hide();
+  $(".btn-off").hide();
   $('.btn-on').click(function() {
 
     $("#needle").addClass("needle-on");
@@ -169,6 +168,23 @@ Click Record  Arm </br>To Turn record on/off.
     }, 1000);
 
   });
+
+
+var myString = "เพลงพระราชนิพนธ์ลำดับที่ 2 เพลงในจังหวะฟ็อกซ์ทร็อตที่ได้พระเจ้าวรวงศ์เธอพระองค์เจ้าจักรพันธ์เพ็ญศิริ นิพนธ์คำร้องภาษาไทย และท่านผู้หญิงนพคุณ ทองใหญ่ ณ อยุธยา แต่งคำร้องภาษาอังกฤษ แล้วพระราชทานให้ครูเอื้อ สุนทรสนาน บรรเลงในงานของสมาคมปราบวัณโรค ที่ เวทีลีลาศ สวนอัมพร ในปี 2489";
+var myArray = myString.split("");
+var loopTimer;
+function frameLooper() {
+  if(myArray.length > 0) {
+    document.getElementById("myTypingText").innerHTML += myArray.shift();
+  } else {
+    clearTimeout(loopTimer); 
+                return false;
+  }
+  loopTimer = setTimeout('frameLooper()',15);
+}
+frameLooper();
+
+
     </script>
 </body>
 </html>

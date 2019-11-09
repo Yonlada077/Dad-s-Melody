@@ -60,9 +60,8 @@ Click Record  Arm </br>To Turn record on/off.
 <div class="textname">
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“พรปีใหม่”<br>
 (New Year Wish)
-<div class="describe1">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เพลงพระราชนิพนธ์ลำดับ 13<br>ทรงพระราชนิพนธ์เมื่อเสด็จนิวัตพระนคร
-และประทับ ณ พระตำหนักจิตรลดา รโหฐานมีพระประสงค์ที่จะพระราชทานพรปีใหม่แก่พสกนิกรด้วยบทเพลงและได้พระเจ้าวรวงศ์เธอพระองค์เจ้าจักรพันธ์เพ็ญศิริ นิพนธ์คำร้องเป็นคำอวยพรปีใหม่แล้วพระราชทานวงดนตรีนิสิตจุฬาลงกรณ์ มหาวิทยาลัย นำออกบรรเลง ณ จุฬาลงกรณ์มหาวิทยาลัย และวงดนตรีสุนทราภรณ์ นำออกบรรเลง ณ ศาลาเฉลิมไทย ในวันปีใหม่ปี 2495
+<div class="describe1" id="myTypingText">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </div>
 </div>
 
@@ -157,6 +156,21 @@ Click Record  Arm </br>To Turn record on/off.
     }, 1000);
 
   });
+
+var myString = "เพลงพระราชนิพนธ์ลำดับ 13 ทรงพระราชนิพนธ์เมื่อเสด็จนิวัตพระนคร และประทับ ณ พระตำหนักจิตรลดา รโหฐานมีพระประสงค์ที่จะพระราชทานพรปีใหม่แก่พสกนิกรด้วยบทเพลงและได้พระเจ้าวรวงศ์เธอพระองค์เจ้าจักรพันธ์เพ็ญศิริ นิพนธ์คำร้องเป็นคำอวยพรปีใหม่แล้วพระราชทานวงดนตรีนิสิตจุฬาลงกรณ์ มหาวิทยาลัย นำออกบรรเลง ณ จุฬาลงกรณ์มหาวิทยาลัย และวงดนตรีสุนทราภรณ์ นำออกบรรเลง ณ ศาลาเฉลิมไทย ในวันปีใหม่ปี 2495";
+var myArray = myString.split("");
+var loopTimer;
+function frameLooper() {
+  if(myArray.length > 0) {
+    document.getElementById("myTypingText").innerHTML += myArray.shift();
+  } else {
+    clearTimeout(loopTimer); 
+                return false;
+  }
+  loopTimer = setTimeout('frameLooper()',15);
+}
+frameLooper();
+
     </script>
 </body>
 </html>
