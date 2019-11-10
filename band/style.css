@@ -847,44 +847,34 @@ h1{
 }
 
 @media only screen and (max-width: 1024px) {
+    body {
+        overflow-x: hidden;
+    }
     .header {
         display: flex;
         justify-content: space-between;
     }
-    .bg-container {
-        max-width: 100%;
-        margin: 0 auto;
-        position: relative;
-        margin-bottom: 0;
-    }
-    
     .bg {
-    position: fixed;
-    top: -19em;
-    right: -5em;
-    width: 82em;
-    z-index: -9999999;
-}
-    .bg-in {
-        position: absolute;
-        /* max-width: 73%; */
-        margin-top: 14%;
-        margin-left: 37%;
-        z-index: 29;
-        width: 28%;
+        position: fixed;
+        top: -34em;
+        right: 55em;
+        width: 54em;
+        z-index: -9999999;
     }
+.bg-in {
+    position: absolute;
+    /* max-width: 73%; */
+    margin-top: 19%;
+    margin-left: 36%;
+    z-index: 29;
+    width: 28%;
+}
     .all-bg {
         position: relative;
         top: 20px;
     }
-    .navbar {
-        width: 97%;
-        position: fixed;
-        z-index: 2000;
-        left: -2.5%;
-    }
     .top-logo {
-        z-index: 1000;
+        z-index: 99;
         position: fixed;
         top: 0;
         left: -2%;
@@ -902,26 +892,25 @@ h1{
     .friday {
         position: absolute;
         max-width: 37%;
-        margin-top: 5%;
-        margin-left: 27%;
+        margin-top: 6%;
+        margin-left: 38%;
         z-index: 29;
-        width: 17%;
+        width: 23%;
     }
     
     .allt {
         position: absolute;
         z-index: 29;
-        max-width: 46%;
+        max-width: 38%;
         height: 200rem;
-        margin-left: 28%;
-        margin-top: 32%;
+        margin-left: 14%;
+        margin-top: 38%;
         /* overflow: scroll; */
     }
-    
     .p-font {
         font-family: 'Trirong', serif;
-        font-size: 26px;
-        line-height: 57px;
+        font-size: 20px;
+        line-height: 33px;
         color: #71512e;
     }
     .ft {
@@ -933,13 +922,21 @@ h1{
     
     
     .footer {
-        position: relative;
-        top: 387em;
-        height: 129px;
-        width: 107%;
-        background-color: #E89292;
+        z-index: 999;
+        position: absolute;
+        left: -63%;
+        width: 224%;
+        background-color: #373B44;
+        color: white;
         text-align: center;
+        height: 64px;
+        display: block;
+        text-align: center;
+        margin-top: 383%;
     }
+    h1{
+        font-size: 0.75em;
+      }
     .te1 {
         position: absolute;
         /* width: 10%; */
@@ -1018,7 +1015,7 @@ h1{
     }
     .mt1 {
         width: 65%;
-        margin-top: 0%;
+        margin-top: -2%;
         margin-left: 10%;
     }
     .mt2 {
@@ -1052,10 +1049,15 @@ h1{
         margin-top: -4%;
         margin-left: 11%;
     } */
+    
+    @keyframes title{
+        from{transform: rotate(-5deg);}
+        to{transform: rotate(10deg);}
+    }
     .f1 {
         position: absolute;
-        margin-top: 44%;
-        left: 0%;
+        margin-top: 34%;
+        left: 8%;
         animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
@@ -1064,8 +1066,8 @@ h1{
     }
     .f2 {
         position: absolute;
-        margin-top: 142%;
-        left: 7%;
+        margin-top: 90%;
+        left: 10%;
         animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
@@ -1074,8 +1076,8 @@ h1{
     }
     .f3 {
         position: absolute;
-        margin-top: 164%;
-        left: 12%;
+        margin-top: 104%;
+        left: 14%;
         animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
@@ -1084,8 +1086,8 @@ h1{
     }
     .f4 {
         position: absolute;
-        margin-top: 253%;
-        left: 4%;
+        margin-top: 153%;
+        left: 8%;
         animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
@@ -1104,8 +1106,8 @@ h1{
     }
     .f6 {
         position: absolute;
-        margin-top: 51%;
-        left: 77%;
+        margin-top: 39%;
+        left: 76%;
         animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
@@ -1114,7 +1116,7 @@ h1{
     }
     .f7 {
         position: absolute;
-        margin-top: 133%;
+        margin-top: 88%;
         left: 75%;
         animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
@@ -1124,8 +1126,8 @@ h1{
     }
     .f8 {
         position: absolute;
-        margin-top: 251%;
-        left: 75%;
+        margin-top: 154%;
+        left: 74%;
         animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
@@ -1134,19 +1136,19 @@ h1{
     }
     .f9 {
         position: absolute;
-        margin-top: 346%;
-        left: 80%;
+        margin-top: 208%;
+        left: 74%;
         animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
         transform: rotate(127deg);
     }
     .inf9 {
-        width: 14em;
-    }    
+        width: 17em;
+    }
     .f10 {
         position: absolute;
-        margin-top: 335%;
-        left: 3%;
+        margin-top: 202%;
+        left: 9%;
         animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
@@ -1155,8 +1157,8 @@ h1{
     }
     .f11 {
         position: absolute;
-        margin-top: 358%;
-        left: 4%;
+        margin-top: 216%;
+        left: 6%;
         animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
         transform: rotate(-29deg);
@@ -1166,8 +1168,8 @@ h1{
     }
     .f12 {
         position: absolute;
-        margin-top: 455%;
-        left: 11%;
+        margin-top: 280%;
+        left: 15%;
         animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
@@ -1176,8 +1178,8 @@ h1{
     }
     .f13 {
         position: absolute;
-        margin-top: 545%;
-        left: 3%;
+        margin-top: 330%;
+        left: 11%;
         animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
@@ -1186,8 +1188,8 @@ h1{
     }
     .f14 {
         position: absolute;
-        margin-top: 558%;
-        left: 2%;
+        margin-top: 339%;
+        left: 8%;
         animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
@@ -1196,8 +1198,8 @@ h1{
     }
     .f15 {
         position: absolute;
-        margin-top: 437.5%;
-        left: 83%;
+        margin-top: 273.5%;
+        left: 79%;
         animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
@@ -1206,8 +1208,8 @@ h1{
     }
     .f16 {
         position: absolute;
-        margin-top: 451%;
-        left: 80%;
+        margin-top: 282%;
+        left: 75%;
         animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
@@ -1216,8 +1218,8 @@ h1{
     }
     .f17 {
         position: absolute;
-        margin-top: 554%;
-        left: 79%;
+        margin-top: 335%;
+        left: 75%;
         animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
