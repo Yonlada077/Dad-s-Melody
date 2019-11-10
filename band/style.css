@@ -466,13 +466,13 @@ h1{
         display: flex;
         justify-content: space-between;
     }
-    .bg {
-        position: fixed;
-        top: -36em;
-        right: 7em;
-        width: 145em;
-        z-index: -9999999;
-    }
+   .bg {
+    position: fixed;
+    top: -36em;
+    right: 45em;
+    width: 109em;
+    z-index: -9999999;
+}
     .bg-in {
         position: absolute;
         /* max-width: 73%; */
@@ -522,10 +522,9 @@ h1{
         max-width: 46%;
         height: 200rem;
         margin-left: 28%;
-        margin-top: 32%;
+        margin-top: 38%;
         /* overflow: scroll; */
     }
-    
     .p-font {
         font-family: 'Trirong', serif;
         font-size: 25px;
@@ -634,7 +633,7 @@ h1{
     }
     .mt1 {
         width: 65%;
-        margin-top: 0%;
+        margin-top: -2%;
         margin-left: 10%;
     }
     .mt2 {
