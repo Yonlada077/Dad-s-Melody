@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css?family=Trirong&display=swap');
+body {
+    background-color: #f8bdb8;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-logo {
+    position: fixed;
+    z-index: 100;
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    left: 1.5%;
+}
+
+.dropdown {
+    float: right;
+    top: 10%;
+    width: 12%;
+    font-size: 10%;
+}
+
+.dropdown .dropbtn {
+    font-size: 27px;
+    border: none;
+    outline: none;
+    color: #71512e;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+    opacity: 0.5;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: pink;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    left: 84%;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #71512e;
+    font-size: 20px;
+    padding: 20px 26px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    height: 100em;
+}
+
+.bg {
+    position: relative;
+    width: 100%;
+    top: -28em;
+}
+
+.img-content {
+    position: absolute;
+    top: 8%;
+    left: 33%;
+    max-width: 100%;
+}
+
+.friday {
+    position: relative;
+    z-index: 1000;
+    max-width: 90%;
+}
+
+.bg-in {
+    position: relative;
+    z-index: 1000;
+    width: 50%;
+    top: 22em;
+    right: 30em;
+}
+
+.text {
+    overflow: scroll;
+    position: absolute;
+    max-width: 57%;
+    top: 194%;
+    font-family: 'Trirong', serif;
+    font-size: 24px;
+    line-height: 53px;
+    color: #71512e;
+}
+
+.img-in-text {
+    position: relative;
+    right: 4%;
+    max-width: 100%;
+}
+
+.img-spe {
+    max-width: 100%;
+    display: flex;
+}
+
+.img-spe-item {
+    width: 45%;
+}
+
+.footer {
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+    background-color: #373B44;
+    color: white;
+    text-align: center;
+    height: 61px;
+    display: block;
+    text-align: center;
+    margin-top: 384%;
+}
+
+h1 {
+    font-size: 0.75em;
+}
+
+@media only screen and (max-width: 1499px) {
+    .bg-in {
+        top: 1em;
+        right: -1em;
+    }
+    .text {
+        top: 100%;
+    }
+}
+
+@media only screen and (max-width: 1326px) {
+    .text {
+        height: 229em;
+    }
+}
+
+@media only screen and (max-width: 1255px) {
+    .text {
+        height: 215em;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .text {
+        height: 202em;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .text {
+        height: 184em;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .top-logo-img {
+        width: 78%;
+    }
+    .friday {
+        max-width: 63%;
+        right: 3em;
+    }
+    .bg-in {
+        top: 1em;
+        right: -1em;
+    }
+    .text {
+        font-size: 20px;
+        line-height: 37px;
+        height: 203em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .text {
+        font-size: 20px;
+        line-height: 37px;
+        height: 144em;
+    }
+    .footer {
+        margin-top: 246%;
+        height: 79px;
+    }
+}
+
+@media only screen and (max-width: 635px) {
+    .top-logo-img {
+        width: 50%;
+    }
+    .dropdown .dropbtn {
+        margin: 0 0 0 -44px;
+    }
+    .friday {
+        max-width: 48%;
+        left: 0em;
+    }
+    .bg-in {
+        top: 10em;
+        right: 13em;
+    }
+    .text {
+        top: 198%;
+        font-size: 17px;
+        line-height: 28px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .bg-in {
+        top: 8em;
+        right: 10em;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .top-logo-img {
+        width: 40%;
+    }
+    .bg-in {
+        top: 6em;
+        right: 9em;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .text {
+        font-size: 10px;
+        line-height: 19px;
+        height: 135em;
+    }
+    .footer {
+        margin-top: 14%;
+        height: 99px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .text {
+        font-size: 10px;
+        line-height: 19px;
+        height: 114em;
+    }
+    .footer {
+        margin-top: -30%;
+        height: 115px;
+    }
+}
+
+@media only screen and (max-width: 296px) {
+    .bg-in {
+        top: 0em;
+        right: 0em;
+    }
+}
