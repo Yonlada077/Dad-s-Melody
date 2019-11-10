@@ -863,9 +863,9 @@ h1{
     
     .bg {
         position: fixed;
-        top: -36em;
-        right: -9em;
-        width: 84em;
+        top: -13em;
+        right: 19em;
+        width: 56em;
         z-index: -9999999;
     }
     .bg-in {
@@ -892,10 +892,10 @@ h1{
     .friday {
         position: absolute;
         max-width: 37%;
-        margin-top: 1%;
-        margin-left: 40%;
+        margin-top: 5%;
+        margin-left: 27%;
         z-index: 29;
-        width: 24%;
+        width: 17%;
     }
     
     .allt {
