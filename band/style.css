@@ -497,7 +497,7 @@ h1{
         width: 100%;
         position: fixed;
         z-index: 2000;
-        left: -3.5%;
+        left: -31.5%;
     }
     .top-logo {
         z-index: 1000;
@@ -550,7 +550,7 @@ h1{
         height: 64px;
         display: block;
         text-align: center;
-        margin-top: 365%;
+        margin-top: 383%;
     }
     h1{
         font-size: 0.75em;
@@ -773,7 +773,7 @@ h1{
     .inf10 {
         width: 17em;
     }
-    ..f11 {
+    .f11 {
         position: absolute;
         margin-top: 216%;
         left: 6%;
@@ -851,9 +851,6 @@ h1{
         display: flex;
         justify-content: space-between;
     }
-    
-    
-    
     .bg-container {
         max-width: 100%;
         margin: 0 auto;
@@ -862,12 +859,12 @@ h1{
     }
     
     .bg {
-        position: fixed;
-        top: -13em;
-        right: 19em;
-        width: 56em;
-        z-index: -9999999;
-    }
+    position: fixed;
+    top: -19em;
+    right: -5em;
+    width: 82em;
+    z-index: -9999999;
+}
     .bg-in {
         position: absolute;
         /* max-width: 73%; */
@@ -879,6 +876,19 @@ h1{
     .all-bg {
         position: relative;
         top: 20px;
+    }
+    .navbar {
+        width: 97%;
+        position: fixed;
+        z-index: 2000;
+        left: -2.5%;
+    }
+    .top-logo {
+        z-index: 1000;
+        position: fixed;
+        top: 0;
+        left: -2%;
+        width: 64%;
     }
     
     .tra {
