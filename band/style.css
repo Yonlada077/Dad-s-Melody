@@ -462,11 +462,15 @@ h1{
     width: 15em;
 }
 @media only screen and (max-width: 1440px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
     .bg {
         position: fixed;
         top: -36em;
-        right: 43em;
-        width: 112em;
+        right: 7em;
+        width: 145em;
         z-index: -9999999;
     }
     .bg-in {
@@ -493,7 +497,7 @@ h1{
         width: 100%;
         position: fixed;
         z-index: 2000;
-        left: -32.5%;
+        left: -3.5%;
     }
     .top-logo {
         z-index: 1000;
@@ -506,10 +510,10 @@ h1{
     .friday {
         position: absolute;
         max-width: 37%;
-        margin-top: 1%;
-        margin-left: 40%;
+        margin-top: 6%;
+        margin-left: 41%;
         z-index: 29;
-        width: 24%;
+        width: 23%;
     }
     
     .allt {
