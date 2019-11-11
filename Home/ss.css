@@ -650,6 +650,9 @@ h1 {
     .f17 {
         right: -184%;
     }
+    .footer {
+        margin-top: 89%;
+    }
 }
 @media only screen and (max-width: 465px) {
     .text {
