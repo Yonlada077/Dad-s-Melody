@@ -126,221 +126,54 @@ body {
     from { transform: translateX(110vw) }
     to { transform: translateX(-110%) }
   }
-/* .cloud1 {
-    position: fixed;
-    width: 75%;
-    height: 50%;
-    top: 64%;
-    left: 30%;
-    opacity: 1.7;
-    animation: cloud-move 30s var(--fn, linear) infinite;
-    will-change: transform;
-    z-index: -999;
-}
-@keyframes cloud-move {
-    from { transform: translateX(-110%) }
-    to { transform: translateX(110vw) }
-  }
-  .cloud2 {
-    position: fixed;
-    width: 80%;
-    height: 59%;
-    top: 68%;
-    left: -20%;
-    opacity: 2.7;
-    animation: clouds-move 30s var(--fn, linear) infinite;
-    will-change: transform;
-    z-index: 999;
-}
-  
-  @keyframes clouds-move {
-    from { transform: translateX(110vw) }
-    to { transform: translateX(-110%) }
-  } */
 
-
-/* Responsive style */
-
-/* medium */
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1230px) {
     .rama9 {
-        position: fixed;
-        width: 45%;
-        top: 17%;
-        left: 20%;
-    }
-    .dadtext {
-        position: fixed;
-        width: 26%;
-        /* height: 20%; */
-        top: 17%;
-        left: 11%;
-    }
-    .about {
-        position: fixed;
-        width: 16%;
-        margin-top: 24%;
-        margin-left: 12%;
-    }
-    
-    .about:hover {
-        transform: scale(1.3);
-        transition-duration: 0.25s;
-        transition-timing-function: ease-in-out;
-    }
-    .band {
-        position: fixed;
-        width: 22%;
-        margin-top: 17%;
-        margin-left: 67%;
-    }
-    .band:hover {
-        transform: scale(1.3);
-        transition-duration: 0.25s;
-        transition-timing-function: ease-in-out;
-    }
-    .musical {
-        position: fixed;
-        width: 31%;
-        top: 65%;
-        left: 5%;
-    }
-    .musical:hover {
-        transform: scale(1.3);
-        transition-duration: 0.25s;
-        transition-timing-function: ease-in-out;
-    }
-    
-    .music {
-        position: fixed;
-        width: 19%;
-        /* height: 34%; */
-        top: 57%;
-        left: 80%;
-    }
-    .music:hover {
-        transform: scale(1.3);
-        transition-duration: 0.25s;
-        transition-timing-function: ease-in-out;
-    }
-    
-    .f1 {
-        position: fixed;
         width: 33%;
-        top: 43%;
-        left: 51%;
-        animation-name: bounceIn;
-        animation-duration: 3s;
-    }    
-    .f2 {
-        position: fixed;
-        width: 32%;
-        top: 24%;
-        left: 16%;
-    }
-    .lcloud {
-        position: fixed;
-        width: 118%;
-        top: 21%;
-        left: -44%;
-    }
-    .rcloud {
-        position: fixed;
-        width: 159%;
-        top: 24%;
-        left: 8%;
+        top: 26%;
+        left: 27%;
     }
 }
 @media  only screen and (max-width: 1030px) {
+.rama9 {
+    top: 42%;
+}
+.f1 {
+    top: 38%;
+}
+.f2 {
+    top: 38%;
+}
+@media only screen and (max-width: 768px) {
     .rama9 {
-        position: fixed;
-        width: 54%;
-        top: 26%;
-        left: 21%;
+        top: 49%;
+        width: 33%;
+        left: 31%;
     }
-    .dadtext {
-        position: fixed;
-        width: 35%;
-        /* height: 20%; */
-        top: 22%;
-        left: 3%;
-    }
-    
-    .about {
-        position: fixed;
-        width: 21%;
-        margin-top: 39%;
-        margin-left: 8%;
-    }
-    
-    .about:hover {
-        transform: scale(1.3);
-        transition-duration: 0.25s;
-        transition-timing-function: ease-in-out;
-    }
-    .band {
-        position: fixed;
-        width: 24%;
-        margin-top: 34%;
-        margin-left: 66%;
-    }
-    .band:hover {
-        transform: scale(1.3);
-        transition-duration: 0.25s;
-        transition-timing-function: ease-in-out;
-    }
-    .musical {
-        position: fixed;
-        width: 43%;
-        top: 65%;
-        left: 1%;
-    }
-    .musical:hover {
-        transform: scale(1.3);
-        transition-duration: 0.25s;
-        transition-timing-function: ease-in-out;
-    }
-    
-    .music {
-        position: fixed;
-        width: 23%;
-        /* height: 34%; */
-        top: 53%;
-        left: 75%;
-    }
-    .music:hover {
-        transform: scale(1.3);
-        transition-duration: 0.25s;
-        transition-timing-function: ease-in-out;
-    }
-    
     .f1 {
-        position: fixed;
-        width: 37%;
         top: 54%;
-        left: 51%;
+        width: 26%;
+        top: 43%;
+        left: 48%;
     }
     .f2 {
-        position: fixed;
-        width: 38%;
-        top: 33%;
-        left: 17%;
+        top: 46%;
+    }
+    .band {
+        margin-top: 26%;
+    }
+    .about {
+        margin-top: 22%;
     }
     .lcloud {
-        position: fixed;
-        width: 132%;
-        top: 35%;
-        left: -44%;
+        top: 45%;
     }
     .rcloud {
-        position: fixed;
-        width: 202%;
-        top: 17%;
-        left: -7%;
+        top: 32%;
     }
-    }
-/* Small */
-@media only screen and (max-width: 420px) {
+    
+}
+@media only screen and (max-width: 425px) {
 
     .rama9 {
         position: fixed;
