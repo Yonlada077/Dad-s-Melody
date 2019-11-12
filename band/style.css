@@ -13,6 +13,9 @@ body {
     overflow-x: hidden; */
     overflow-x: hidden;
 }
+audio {
+    opacity: 0;
+}
 
 /* .header {
     display: flex;
