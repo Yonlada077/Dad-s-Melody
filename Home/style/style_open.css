@@ -10,14 +10,12 @@ body {
 .title {
     position: fixed;
     width: 58%;
-    height: 38%;
     top: 27%;
     left: 27%;
 }
 .butt {
     position: fixed;
     width: 15%;
-    height: 15%;
     top: 63%;
     left: 45%;
 }
@@ -28,107 +26,91 @@ body {
 }
 .pic1 {
     position: fixed;
-    width: 51%;
-    height: 86%;
+    width: 43%;
     top: 10%;
-    left: -4%;
+    left: 0%;
 }
 .pic2 {
     position: fixed;
     width: 20%;
-    height: 20%;
     top: 60%;
     left: 23%;
 }
 .pic3 {
     position: fixed;
     width: 25%;
-    height: 37%;
     top: 57%;
     left: 63%;
 }
 .pic4 {
     position: fixed;
     width: 24%;
-    height: 59%;
     top: 74%;
     left: 42%;
 }
 .pic5 {
     position: fixed;
     width: 5%;
-    height: 5%;
     top: 29%;
     left: 45%;
 }
 .pic6 {
     position: fixed;
     width: 20%;
-    height: 25%;
-    top: -7%;
+    top: -18%;
     left: 35%;
 }
 .pic7 {
     position: fixed;
     width: 7%;
-    height: 9%;
     top: 4%;
     left: 36%;
 }
 .pic8 {
     position: fixed;
     width: 24%;
-    height: 61%;
     top: -26%;
     left: -1%;
 }
 .pic9 {
     position: fixed;
-    width: 44%;
-    height: 76%;
+    width: 39%;
     top: -37%;
-    left: 62%;
+    left: 69%;
 }
 .pic10 {
     position: fixed;
-    width: 45%;
-    height: 82%;
-    top: 61%;
+    width: 33%;
+    top: 63%;
     left: -6%;
 }
 .pic11 {
     position: fixed;
     width: 7%;
-    height: 10%;
     top: 64%;
     left: 3%;
 }
 .pic12 {
     position: fixed;
     width: 22%;
-    height: 50%;
     top: 53%;
     left: 87%;
 }
 .pic13 {
     position: fixed;
     width: 25%;
-    height: 50%;
     top: 74%;
     left: 82%;
 }
 .pic14 {
     position: fixed;
-    width: 49%;
-    height: 70%;
-    top: -3%;
-    left: 75%;
+    width: 36%;
+    top: 0%;
+    left: 80%;
 }
-
 .cloud1 {
     position: fixed;
     width: 75%;
-    height: 50%;
     top: 64%;
     left: 30%;
     opacity: 1.7;
@@ -142,7 +124,6 @@ body {
 .cloud2 {
     position: fixed;
     width: 80%;
-    height: 59%;
     top: -5%;
     left: -20%;
     opacity: 2.7;
@@ -155,125 +136,292 @@ body {
   to { transform: translateX(-110%) }
 }
 /* Responsive style */
+@media only screen and (max-width: 1200px) {
+.pic9 {
+    position: fixed;
+    width: 39%;
+    top: -33%;
+    left: 68%;
+}
+    
+}
+@media only screen and (max-width: 1100px) {
+.pic9 {
+    position: fixed;
+    width: 39%;
+    top: -29%;
+    left: 68%;
+}
+.pic6 {
+    position: fixed;
+    width: 21%;
+    top: -16%;
+    left: 35%;
+}
+.pic2 {
+    position: fixed;
+    width: 20%;
+    top: 50%;
+    left: 23%;
+}
+.pic3 {
+    position: fixed;
+    width: 25%;
+    top: 50%;
+    left: 63%;
+}    
+}
 
 /* medium */
 @media only screen and (max-width: 900px) {
-
-
-    
+.pic8 {
+    position: fixed;
+    width: 24%;
+    top: -14%;
+    left: -1%;
 }
-
+.pic9 {
+    position: fixed;
+    width: 39%;
+    top: -22%;
+    left: 68%;
+}
+.pic6 {
+    position: fixed;
+    width: 21%;
+    top: -10%;
+    left: 35%;
+}
+.pic12 {
+    position: fixed;
+    width: 22%;
+    top: 64%;
+    left: 87%;
+}
+.pic10 {
+    position: fixed;
+    width: 33%;
+    top: 73%;
+    left: -6%;
+}
+.pic11 {
+    position: fixed;
+    width: 7%;
+    top: 70%;
+    left: 3%;
+}
+.title {
+    position: fixed;
+    width: 58%;
+    top: 34%;
+    left: 27%;
+}
+.pic14 {
+    position: fixed;
+    width: 36%;
+    top: 14%;
+    left: 80%;
+}
+.pic1 {
+    position: fixed;
+    width: 43%;
+    top: 22%;
+    left: 0%;
+}
+.pic5 {
+    position: fixed;
+    width: 5%;
+    top: 34%;
+    left: 45%;
+}    
+}
+@media screen and (max-width: 767px) {
+.pic8 {
+    position: fixed;
+    width: 32%;
+    top: -16%;
+    left: -1%;
+}
+.pic6 {
+    position: fixed;
+    width: 21%;
+    top: -6%;
+    left: 35%;
+}
+.pic9 {
+    position: fixed;
+    width: 39%;
+    top: -16%;
+    left: 68%;
+}
+.pic1 {
+    position: fixed;
+    width: 66%;
+    top: 32%;
+    left: -11%;
+}
+.pic10 {
+    position: fixed;
+    width: 33%;
+    top: 79%;
+    left: -6%;
+}
+.pic11 {
+    position: fixed;
+    width: 7%;
+    top: 78%;
+    left: 3%;
+}
+.pic4 {
+    position: fixed;
+    width: 24%;
+    top: 81%;
+    left: 42%;
+}
+.butt {
+    position: fixed;
+    width: 27%;
+    top: 53%;
+    left: 37%;
+}
+.pic2 {
+    position: fixed;
+    width: 29%;
+    top: 61%;
+    left: 23%;
+}
+.pic3 {
+    position: fixed;
+    width: 46%;
+    top: 46%;
+    left: 50%;
+}
+.pic14 {
+    position: fixed;
+    width: 41%;
+    top: 14%;
+    left: 72%;
+}
+.pic13 {
+    position: fixed;
+    width: 25%;
+    top: 79%;
+    left: 82%;
+}
+.pic12 {
+    position: fixed;
+    width: 27%;
+    top: 71%;
+    left: 82%;
+}    
+}
 /* Small */
 @media only screen and (max-width: 510px) {
 .title {
     position: fixed;
-    width: 60%;
-    height: 25%;
+    width: 83%;
     top: 30%;
-    left: 30%;
+    left: 13%;
+}
+.pic13 {
+    position: fixed;
+    width: 32%;
+    top: 79%;
+    left: 77%;
 }
 .butt {
     position: fixed;
     width: 35%;
-    height: 13%;
     top: 52%;
     left: 37%;
 }
 .pic1 {
     position: fixed;
-    width: 50%;
-    height: 60%;
-    top: 30%;
-    left: 4%;
+    width: 79%;
+    top: 41%;
+    left: -17%;
 }
 .pic2 {
     position: fixed;
     width: 30%;
-    height: 20%;
     top: 70%;
-    left: 30%;
+    left: 26%;
 }
 .pic3 {
     position: fixed;
-    width: 25%;
-    height: 37%;
-    top: 46%;
-    left: 52%;
-}
-.pic3 {
-    position: fixed;
-    width: 40%;
-    height: 32%;
+    width: 49%;
     top: 54%;
-    left: 55%;
+    left: 46%;
 }
 .pic8 {
     position: fixed;
     width: 35%;
-    height: 49%;
     top: -4%;
     left: -10%;
 }
 .pic6 {
     position: fixed;
     width: 25%;
-    height: 25%;
     top: -7%;
     left: 30%;
 }
 .pic7 {
     position: fixed;
     width: 12%;
-    height: 9%;
-    top: 5%;
-    left: 29%;
+    top: 3%;
+    left: 35%;
 }
 .pic14 {
     position: fixed;
     width: 72%;
-    height: 40%;
-    top: 11%;
+    top: 2%;
     left: 63%;
 }
 .pic9 {
     position: fixed;
     width: 55%;
-    height: 63%;
-    top: -23%;
-    left: 55%;
+    top: -11%;
+    left: 66%;
 }
 .pic5 {
     position: fixed;
-    width: 5%;
-    height: 5%;
-    top: 31%;
-    left: 49%;
+    width: 8%;
+    top: 29%;
+    left: 39%;
 }
 .pic10 {
     position: fixed;
     width: 47%;
-    height: 53%;
-    top: 67%;
+    top: 79%;
     left: -5%;
 }
 .pic11 {
     position: fixed;
-    width: 7%;
-    height: 10%;
+    width: 10%;
     top: 75%;
-    left: 13%;
+    left: 3%;
+}
+.pic12 {
+    position: fixed;
+    width: 32%;
+    top: 74%;
+    left: 77%;
 }
 .pic4 {
     position: fixed;
     width: 32%;
-    height: 36%;
     top: 87%;
+    left: 38%;
+}
+.pic6 {
+    position: fixed;
+    width: 25%;
+    top: -5%;
     left: 38%;
 }
 .cloud1 {
     position: fixed;
     width: 115%;
-    height: 35%;
     top: 77%;
     left: 30%;
     opacity: 1.7;
@@ -283,7 +431,6 @@ body {
 .cloud2 {
     position: fixed;
     width: 107%;
-    height: 35%;
     top: -1%;
     left: -20%;
     opacity: 2.7;
