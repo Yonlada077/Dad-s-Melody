@@ -6,6 +6,9 @@ body {
     background-position: center center;
     background-size: cover;
 }
+audio {
+    opacity: 0;
+}
 
 .rama9 {
     position: fixed;
