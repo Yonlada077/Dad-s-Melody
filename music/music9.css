@@ -277,9 +277,8 @@ li a {
 
 /* Change the link color on hover */
 li a:hover {
-  background-color: #71512e;
   color:white;
-  border-radius: 42%;
+  text-decoration: underline;
 }
 
 .papaername{
@@ -772,6 +771,7 @@ p {
     font-size: 1em;
     top: -21%;
 }
+
 ul {
     left: 9%;
     width: 91%;
@@ -1159,7 +1159,7 @@ ul {
 .pic2 {
     position: absolute;
     width: 30%;
-    top: 39%;
+    top: 16%;
     left: 77%;
 }
 .pic3 {
