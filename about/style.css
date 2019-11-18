@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Trirong&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Chonburi&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Chonburi|Maitree&display=swap');
 
 body {
     /* background-image: url('./ประวัติ/ฉากประวัติ.svg');
@@ -188,7 +190,7 @@ body {
     color: #71512e;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit;
+    font-family: 'Chonburi', cursive;
     margin: 0;
   }
   
