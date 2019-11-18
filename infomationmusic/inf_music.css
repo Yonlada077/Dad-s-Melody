@@ -1,14 +1,7 @@
-/* thai */
-@font-face {
-  font-family: 'Trirong';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Trirong Regular'), local('Trirong-Regular'), url(https://fonts.gstatic.com/s/trirong/v5/7r3GqXNgp8wxdOdOn58o2JZg.woff2) format('woff2');
-  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
-}
+@import url('https://fonts.googleapis.com/css?family=Chonburi&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Maitree&display=swap');
 body {
-  font-family: 'Trirong', sans-serif;
+  font-family: 'Chonburi', cursive;
   font-weight: 500;
   background-image: url('./img/แบ้คกราว-01.png');
   background-size: cover;
@@ -29,6 +22,7 @@ img {
   width: 80%;  
 }
 .navbar {
+  font-family: 'Chonburi', cursive;
   overflow: hidden;
   width: 100%;
 
@@ -58,6 +52,7 @@ img {
 }
 
 .dropdown-content {
+  font-family: 'Maitree', serif;  
   display: none;
   position: absolute;
   background-color: pink;
@@ -85,6 +80,7 @@ img {
   display: block;
 }
 .text{
+  font-family: 'Chonburi', cursive;
   position: absolute;
   top: 23px;
   left: 82px;
@@ -280,6 +276,7 @@ img {
   transition: all .5s;
 }
 .slider__describe {
+  font-family: 'Maitree', serif; 
   line-height: 140%;
   padding: 5%;
   margin-bottom: 2%; 
@@ -291,6 +288,7 @@ img {
   color: #71512e;
 }
 .slider__describe2 {
+    font-family: 'Maitree', serif; 
   line-height: 140%;
   padding: 20px;
   margin-bottom: 200px; 
@@ -302,6 +300,7 @@ img {
   color: #71512e;
 }
 .slider__describe3 {
+    font-family: 'Maitree', serif; 
   line-height: 140%;
   padding: 20px;
   margin-bottom: 100px; 
