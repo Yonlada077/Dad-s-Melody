@@ -128,7 +128,7 @@ img {
   z-index: 22;
   display: inline-flex;
   border: none;
-  width: 18%;
+  width: 27%;
   justify-content: center;
   align-items: center;
   position: absolute;
@@ -143,11 +143,11 @@ img {
   outline: none;
 }
 .prev {
-  left: -50%;
+  left: -33%;
   transform: translate(-100%, -50%);
 }
 .next {
-  right: -21%;
+  right: -12%;
   transform: translate(50%, -50%);
 }
 .slider {
@@ -433,10 +433,10 @@ img {
     width: 250px;
 }
   .prev {
-    left: -33%;
+    left: -26%;
   }
   .next {
-    left: 85%;
+    left: 79%;
   }
   .slider__content {
     padding-left: 220px;
@@ -503,10 +503,10 @@ img {
     left: 4%;  
 }
 .prev {
-    left: -21%;
+    left: -18%;
   }
   .next {
-    left: 85%;
+    left: 79%;
   }
   .slider {
     width: 80%;
@@ -549,7 +549,12 @@ img {
     top: -20%;
     left: -50%;
   }
-  
+.prev {
+    left: -8%;
+  }
+  .next {
+    left: 75%;
+  }  
 }
 @media screen and (max-width: 992px) {
   .top-logo img{
@@ -558,6 +563,14 @@ img {
   left: 1%;
   width: 37%;  
   }
+.dropdown {
+    float: right;
+    top: 2%;
+    width: 16%
+}
+.dropdown-content {
+    left: 77%;
+}
   .wrapper {
     height: auto;
     min-height: 100vh;
@@ -602,6 +615,12 @@ img {
     left: 0;
     transform: translate(-50%, -50%);
   }
+.prev {
+    left: -1%;
+  }
+  .next {
+    left: 77%;
+  }  
   .slider {
     width: 80%;
     left: 50%;
@@ -697,10 +716,10 @@ img {
   font-size: 25px;  
 }
 .dropdown-content {
-  left:80%;
+    left: 71%;
 }
 .dropdown-content a {
-  font-size: 10px;
+  font-size: 15px;
 }
 .content {
     margin-top: 20px;
@@ -711,6 +730,12 @@ img {
     width: 250px;
     font-size: 30px;
 }
+.prev {
+    left: 8%;
+  }
+  .next {
+    left: 75%;
+  }
 .bg-shape {
     position: fixed;
     width: 180%;
@@ -781,7 +806,7 @@ img {
   font-size: 20px;  
 }
 .dropdown-content {
-  left:65%;
+    left: 65%;
 }
 .dropdown-content a {
   font-size: 15px;
@@ -801,6 +826,12 @@ img {
   }
 .next {
     transform: translate(20%, -50%);
+  }
+.prev {
+    left: -8%;
+  }
+  .next {
+    left: 78%;
   }
   .slider {
     width: 85%;
@@ -892,6 +923,14 @@ img {
   .bg-shape {
     top: 50%;
   }
+  .dropdown-content {
+    left: 59%;
+    z-index: 20;
+}
+.dropdown {
+    top: 15%;
+    width: 30%;
+}
   .slider__content {
     padding-top: 13%;
     padding-left: 15%;
