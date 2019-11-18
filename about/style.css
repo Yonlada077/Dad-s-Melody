@@ -135,14 +135,14 @@ body {
 }
 
 .p-font {
-    font-family: 'Trirong', serif;
+    font-family: 'Maitree', serif;
     font-size: 22px;
     line-height: 44px;
     color: #71512e;
 }
 .ft {
     /* margin-top: 18%; */
-    font-family: 'Trirong', serif;
+    font-family: 'Maitree', serif;
     font-size: 19px;
     color: white;
 }
@@ -384,8 +384,6 @@ body {
     position: absolute;
     margin-top: 50%;
     left: 8%;
-    animation: shadow .25s infinite alternate,
-	title 2s infinite steps(2);
     z-index: 99;
 }
 .inf1 {
@@ -395,7 +393,6 @@ body {
     position: absolute;
     margin-top: 116%;
     left: 3%;
-    animation: shadow .25s infinite alternate, title 2s infinite steps(2);
     z-index: 99;
 }
 .inf2 {
@@ -405,7 +402,6 @@ body {
     position: absolute;
     margin-top: 191%;
     left: 9%;
-    animation: shadow .25s infinite alternate, title 2s infinite steps(2);
     z-index: 99;
 }
 .inf3 {
@@ -415,7 +411,6 @@ body {
     position: absolute;
     margin-top: 271%;
     left: 2%;
-    animation: shadow .25s infinite alternate, title 2s infinite steps(2);
     z-index: 99;
 }
 .inf4 {
@@ -425,7 +420,6 @@ body {
     position: absolute;
     margin-top: 330%;
     left: 5%;
-    animation: shadow .25s infinite alternate, title 2s infinite steps(2);
     z-index: 99;
 }
 .inf5 {
@@ -435,7 +429,6 @@ body {
     position: absolute;
     margin-top: 106%;
     left: 73%;
-    animation: shadow .25s infinite alternate, title 2s infinite steps(2);
     z-index: 99;
 }
 .inf6 {
@@ -445,7 +438,6 @@ body {
     position: absolute;
     margin-top: 158%;
     left: 70%;
-    animation: shadow .25s infinite alternate, title 2s infinite steps(2);
     z-index: 99;
 }
 .inf7 {
@@ -455,7 +447,6 @@ body {
     position: absolute;
     margin-top: 215%;
     left: 72%;
-    animation: shadow .25s infinite alternate, title 2s infinite steps(2);
     z-index: 99;
 }
 .inf8 {
@@ -465,7 +456,6 @@ body {
     position: absolute;
     margin-top: 292%;
     left: 72%;
-    animation: shadow .25s infinite alternate, title 2s infinite steps(2);
     z-index: 99;
 }
 .inf9 {
@@ -548,7 +538,6 @@ body {
     }
     
     .p-font {
-        font-family: 'Trirong', serif;
         font-size: 22px;
         line-height: 44px;
         color: #71512e;
@@ -702,7 +691,6 @@ body {
         position: absolute;
         margin-top: 52%;
         left: -2%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf1 {
@@ -713,7 +701,6 @@ body {
         position: absolute;
         margin-top: 121%;
         left: -4%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf2 {
@@ -723,7 +710,6 @@ body {
         position: absolute;
         margin-top: 193%;
         left: 3%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf3 {
@@ -733,7 +719,6 @@ body {
         position: absolute;
         margin-top: 266%;
         left: -3%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf4 {
@@ -743,7 +728,6 @@ body {
         position: absolute;
         margin-top: 338%;
         left: -1%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf5 {
@@ -753,7 +737,6 @@ body {
         position: absolute;
         margin-top: 106%;
         left: 73%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf6 {
@@ -763,7 +746,6 @@ body {
         position: absolute;
         margin-top: 161%;
         left: 68%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf7 {
@@ -773,7 +755,6 @@ body {
         position: absolute;
         margin-top: 215%;
         left: 72%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf8 {
@@ -783,7 +764,6 @@ body {
         position: absolute;
         margin-top: 292%;
         left: 72%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf9 {
@@ -815,7 +795,7 @@ body {
     .bg {
         position: absolute;
         top: -2em;
-        right: -13em;
+        right: -15em;
         width: 79em;
         z-index: -9999999;
     }
@@ -824,7 +804,7 @@ body {
         position: absolute;
         max-width: 150%;
         margin-top: 4%;
-        margin-left: 4%;
+        margin-left: 9%;
         z-index: 5;
     }
     
@@ -860,7 +840,6 @@ body {
     }
     
     .p-font {
-        font-family: 'Trirong', serif;
         font-size: 22px;
         line-height: 44px;
         color: #71512e;
@@ -1015,7 +994,6 @@ body {
         position: absolute;
         margin-top: 69%;
         left: -4%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf1 {
@@ -1026,7 +1004,6 @@ body {
         position: absolute;
         margin-top: 160%;
         left: -7%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf2 {
@@ -1036,7 +1013,6 @@ body {
         position: absolute;
         margin-top: 257%;
         left: 1%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf3 {
@@ -1046,7 +1022,6 @@ body {
         position: absolute;
         margin-top: 353%;
         left: -7%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf4 {
@@ -1056,7 +1031,6 @@ body {
         position: absolute;
         margin-top: 439%;
         left: -5%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf5 {
@@ -1066,7 +1040,6 @@ body {
         position: absolute;
         margin-top: 144%;
         left: 86%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf6 {
@@ -1076,7 +1049,6 @@ body {
         position: absolute;
         margin-top: 216%;
         left: 82%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf7 {
@@ -1086,7 +1058,6 @@ body {
         position: absolute;
         margin-top: 297%;
         left: 84%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf8 {
@@ -1096,7 +1067,7 @@ body {
         position: absolute;
         margin-top: 389%;
         left: 83%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
+       
         z-index: 99;
     }
     .inf9 {
@@ -1131,8 +1102,8 @@ body{
     
     .bg {
         position: absolute;
-        top: -2em;
-        right: -16em;
+        top: 3em;
+        right: -19em;
         width: 64em;
         z-index: -9999999;
     }
@@ -1140,8 +1111,8 @@ body{
     .bg-in {
         position: absolute;
         /* max-width: 202%; */
-        margin-top: 4%;
-        margin-left: 45px;
+        margin-top: 14%;
+        margin-left: 96px;
         z-index: 5;
         width: 114%;
     }
@@ -1171,13 +1142,11 @@ body{
         z-index: 29;
         max-width: 74%;
         height: 200rem;
-        margin-left: 30%;
+        margin-left: 45%;
         margin-top: 88%;
         /* overflow: scroll; */
     }
-    
     .p-font {
-        font-family: 'Trirong', serif;
         font-size: 16px;
         line-height: 44px;
         color: #71512e;
@@ -1186,15 +1155,15 @@ body{
     .footer {
         z-index: 999;
         position: absolute;
-        left: -42%;
-        width: 204%;
+        left: -82%;
+        width: 260%;
         background-color: #373B44;
         color: white;
         text-align: center;
-        height: 70px;
+        height: 95px;
         display: block;
         text-align: center;
-        top: 106%;
+        top: 109%;
     }
     .te1 {
         position: absolute;
@@ -1332,7 +1301,6 @@ body{
         position: absolute;
         margin-top: 74%;
         left: -4%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf1 {
@@ -1343,7 +1311,7 @@ body{
         position: absolute;
         margin-top: 170%;
         left: -10%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
+
         z-index: 99;
     }
     .inf2 {
@@ -1353,7 +1321,6 @@ body{
         position: absolute;
         margin-top: 277%;
         left: 3%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf3 {
@@ -1363,7 +1330,6 @@ body{
         position: absolute;
         margin-top: 353%;
         left: -7%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf4 {
@@ -1373,7 +1339,6 @@ body{
         position: absolute;
         margin-top: 480%;
         left: -5%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf5 {
@@ -1383,7 +1348,6 @@ body{
         position: absolute;
         margin-top: 162%;
         left: 92%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf6 {
@@ -1393,7 +1357,6 @@ body{
         position: absolute;
         margin-top: 216%;
         left: 82%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf7 {
@@ -1403,7 +1366,6 @@ body{
         position: absolute;
         margin-top: 307%;
         left: 89%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf8 {
@@ -1413,7 +1375,6 @@ body{
         position: absolute;
         margin-top: 412%;
         left: 95%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf9 {
@@ -1446,16 +1407,17 @@ body{
     
     .bg {
         position: absolute;
-        top: -6em;
-        right: -40em;
-        width: 67em;
+        top: 1em;
+        right: -32em;
+        width: 52em;
         z-index: -9999999;
+        height: 251em;
     }
     .bg-in {
         position: absolute;
-        max-width: 209%;
-        margin-top: -10%;
-        margin-left: 47px;
+        max-width: 163%;
+        margin-top: 21%;
+        margin-left: 155px;
         z-index: 5;
         width: 90em;
     }
@@ -1485,12 +1447,11 @@ body{
         z-index: 29;
         max-width: 116%;
         height: 200rem;
-        right: -73%;
-        margin-top: 154%;
+        right: -77%;
+        margin-top: 163%;
         /* overflow: scroll; */
     }
     .p-font {
-        font-family: 'Trirong', serif;
         font-size: 16px;
         line-height: 44px;
         color: #71512e;
@@ -1645,7 +1606,6 @@ body{
         position: absolute;
         margin-top: 109%;
         left: -24%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf1 {
@@ -1656,7 +1616,6 @@ body{
         position: absolute;
         margin-top: 334%;
         left: -1%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf2 {
@@ -1666,7 +1625,6 @@ body{
         position: absolute;
         margin-top: 512%;
         left: 11%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf3 {
@@ -1676,7 +1634,6 @@ body{
         position: absolute;
         margin-top: 633%;
         left: -16%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf4 {
@@ -1686,7 +1643,6 @@ body{
         position: absolute;
         margin-top: 859%;
         left: -8%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf5 {
@@ -1696,7 +1652,6 @@ body{
         position: absolute;
         margin-top: 297%;
         left: 174%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf6 {
@@ -1706,7 +1661,6 @@ body{
         position: absolute;
         margin-top: 428%;
         left: 164%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf7 {
@@ -1716,7 +1670,6 @@ body{
         position: absolute;
         margin-top: 558%;
         left: 164%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf8 {
@@ -1726,7 +1679,6 @@ body{
         position: absolute;
         margin-top: 752%;
         left: 173%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
         z-index: 99;
     }
     .inf9 {
@@ -1758,16 +1710,17 @@ body{
     
     .bg {
         position: absolute;
-        top: -6em;
-        right: -48em;
-        width: 67em;
+        top: 1em;
+        right: -32em;
+        width: 52em;
         z-index: -9999999;
+        height: 256em;
     }
     .bg-in {
         position: absolute;
-        max-width: 234%;
-        margin-top: -10%;
-        margin-left: 136px;
+        max-width: 163%;
+        margin-top: 21%;
+        margin-left: 155px;
         z-index: 5;
         width: 90em;
     }
@@ -1779,44 +1732,43 @@ body{
     
     .tra {
         position: absolute;
-        max-width: 45%;
-        margin-top: 146%;
-        margin-left: 100%;
+        max-width: 40%;
+        margin-top: 130%;
+        margin-left: 96%;
         z-index: 29;
     }
     .prawat {
         position: absolute;
-        max-width: 100%;
-        margin-top: 133%;
-        margin-left: 105%;
+        max-width: 87%;
+        margin-top: 118%;
+        margin-left: 73%;
         z-index: 29;
     }
+    
     .allt {
         position: absolute;
         z-index: 29;
         max-width: 116%;
         height: 200rem;
-        right: -119%;
-        margin-top: 172%;
+        right: -77%;
+        margin-top: 163%;
         /* overflow: scroll; */
     }
     .p-font {
-        font-family: 'Trirong', serif;
         font-size: 16px;
         line-height: 44px;
         color: #71512e;
     }
     
-    
     .footer {
         z-index: 999;
         position: absolute;
-        left: -83%;
-        width: 262%;
+        left: -49%;
+        width: 226%;
         background-color: #373B44;
         color: white;
         text-align: center;
-        height: 81px;
+        height: 79px;
         display: block;
         text-align: center;
         top: 111%;
@@ -1824,7 +1776,7 @@ body{
     .te1 {
         position: absolute;
         /* width: 10%; */
-        left: 55%;
+        left: 25%;
         top: 12em;
         z-index: 30;
     }
@@ -1840,7 +1792,7 @@ body{
     .te2 {
         position: absolute;
         /* width: 10%; */
-        left: 98.5%;
+        left: 64.5%;
         top: 14em;
         z-index: 30;
     }
@@ -1855,7 +1807,7 @@ body{
     .te3 {
         position: absolute;
         /* width: 10%; */
-        left: 145%;
+        left: 110%;
         top: 11em;
         z-index: 30;
     }
@@ -1870,7 +1822,7 @@ body{
     .te4 {
         position: absolute;
         /* width: 10%; */
-        left: 184%;
+        left: 141%;
         top: 8.5em;
         z-index: 30;
     }
@@ -1885,7 +1837,7 @@ body{
     .te5 {
         position: absolute;
         /* width: 10%; */
-        left: 229%;
+        left: 183%;
         top: 8.5em;
         z-index: 30;
     }
@@ -1955,9 +1907,8 @@ body{
     }
     .f1 {
         position: absolute;
-        margin-top: 149%;
-        left: 28%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
+        margin-top: 109%;
+        left: -24%;
         z-index: 99;
     }
     .inf1 {
@@ -1966,9 +1917,8 @@ body{
     
     .f2 {
         position: absolute;
-        margin-top: 389%;
-        left: 21%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
+        margin-top: 334%;
+        left: -1%;
         z-index: 99;
     }
     .inf2 {
@@ -1976,9 +1926,8 @@ body{
     }
     .f3 {
         position: absolute;
-        margin-top: 589%;
-        left: 36%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
+        margin-top: 512%;
+        left: 11%;
         z-index: 99;
     }
     .inf3 {
@@ -1986,65 +1935,57 @@ body{
     }
     .f4 {
         position: absolute;
-        margin-top: 760%;
-        left: 13%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
+        margin-top: 633%;
+        left: -16%;
         z-index: 99;
     }
     .inf4 {
-        width: 17em;
+        width: 22em;
     }
     .f5 {
         position: absolute;
-        margin-top: 1019%;
-        left: 26%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
+        margin-top: 859%;
+        left: -8%;
         z-index: 99;
     }
     .inf5 {
-        width: 12em;
+        width: 18em;
     }
     .f6 {
         position: absolute;
-        margin-top: 353%;
-        left: 247%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
+        margin-top: 297%;
+        left: 174%;
         z-index: 99;
     }
     .inf6 {
-        width: 12em;
+        width: 20em;
     }
     .f7 {
         position: absolute;
-        margin-top: 529%;
-        left: 242%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
+        margin-top: 428%;
+        left: 164%;
         z-index: 99;
     }
     .inf7 {
-        width: 15em;
+        width: 24em;
     }
     .f8 {
         position: absolute;
-        margin-top: 663%;
-        left: 240%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
+        margin-top: 558%;
+        left: 164%;
         z-index: 99;
     }
     .inf8 {
-        width: 16em;
+        width: 26em;
     }
-    
-    
     .f9 {
         position: absolute;
-        margin-top: 908%;
-        left: 243%;
-        animation: shadow .25s infinite alternate, title 2s infinite steps(2);
+        margin-top: 752%;
+        left: 173%;
         z-index: 99;
     }
     .inf9 {
-        width: 14em;
+        width: 23em;
     }
 }
 
