@@ -153,14 +153,9 @@ h1 {
     position: absolute;
     /* max-width: 100%; */
 }
-@keyframes title{
-	from{transform: rotate(-5deg);}
-	to{transform: rotate(10deg);}
-}
 .f1 {
     margin-left: -56%;
     margin-top: 59%;
-    animation: shadow .25s infinite alternate, title 2s infinite steps(2);
     z-index: 99;
 }
 .inf1 {
@@ -169,7 +164,7 @@ h1 {
 .f2 {
     margin-left: 38%;
     margin-top: -49%;
-    animation: shadow .25s infinite alternate, title 2s infinite steps(2);
+   
     z-index: 99;
 
 }
@@ -183,7 +178,7 @@ h1 {
     margin-top: 67%;
 }
 .f3 {
-    animation: shadow .25s infinite alternate, title 2s infinite steps(2);
+   
     z-index: 99;
 }
 .inf3 {
@@ -198,7 +193,7 @@ h1 {
 .f5 {
     margin-left: -26%;
     margin-top: -10%;
-    animation: shadow .25s infinite alternate, title 2s infinite steps(2);
+   
     z-index: 99;
 }
 .inf6 {
@@ -208,14 +203,14 @@ h1 {
     position: absolute;
     right: -85%;
     margin-top: -69%;
-    animation: shadow .25s infinite alternate, title 2s infinite steps(2);
+  
     z-index: 99;
 }
 .f7 {
     position: absolute;
     margin-left: -52%;
     margin-top: 117%;
-    animation: shadow .25s infinite alternate, title 2s infinite steps(2);
+ 
     z-index: 99;
 }
 .inf7 {
@@ -228,14 +223,14 @@ h1 {
     position: absolute;
     right: -71%;
     margin-top: 120%;
-    animation: shadow .25s infinite alternate, title 2s infinite steps(2);
+   
     z-index: 99;
 }
 .f9 {
     position: absolute;
     margin-left: -52%;
     margin-top: 228%;
-    animation: shadow .25s infinite alternate, title 2s infinite steps(2);
+  
     z-index: 99;
 }
 .inf9 {
@@ -245,7 +240,7 @@ h1 {
     position: absolute;
     margin-left: -54%;
     margin-top: 257%;
-    animation: shadow .25s infinite alternate, title 2s infinite steps(2);
+   
     z-index: 99;
 }
 .inf10 {
@@ -258,14 +253,13 @@ h1 {
     position: absolute;
     right: -86%;
     margin-top: 241%;
-    animation: shadow .25s infinite alternate, title 2s infinite steps(2);
+ 
     z-index: 99;
 }
 .f12 {
     position: absolute;
     margin-left: -44%;
     margin-top: 446%;
-    animation: shadow .25s infinite alternate, title 2s infinite steps(2);
     z-index: 99;
 }
 .inf12 {
@@ -278,7 +272,7 @@ h1 {
     position: absolute;
     right: -58%;
     margin-top: 423%;
-    animation: shadow .25s infinite alternate, title 2s infinite steps(2);
+  
     z-index: 99;
 }
 .inf14 {
@@ -288,14 +282,14 @@ h1 {
     position: absolute;
     right: -43%;
     margin-top: 443%;
-    animation: shadow .25s infinite alternate, title 2s infinite steps(2);
+ 
     z-index: 99;
 }
 .f15 {
     position: absolute;
     margin-left: -46%;
     margin-top: 578%;
-    animation: shadow .25s infinite alternate, title 2s infinite steps(2);
+  
     z-index: 99;
 }
 .inf15 {
@@ -305,7 +299,7 @@ h1 {
     position: absolute;
     margin-left: -47%;
     margin-top: 599%;
-    animation: shadow .25s infinite alternate, title 2s infinite steps(2);
+   
     z-index: 99;
 }
 .inf16 {
@@ -318,11 +312,10 @@ h1 {
     position: absolute;
     right: -64%;
     margin-top: 594%;
-    animation: shadow .25s infinite alternate, title 2s infinite steps(2);
-    z-index: 99;
 }
 
 @media only screen and (max-width: 1499px) {
+    bo
     .bg-in {
         top: 1em;
         right: -1em;
