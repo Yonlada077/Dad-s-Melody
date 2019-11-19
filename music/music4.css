@@ -274,10 +274,8 @@ li a {
 
 /* Change the link color on hover */
 li a:hover {
-  background-color: #71512e;
-  color:white;
-  border-radius: 42%;
-}
+    color:white;
+  }
 
 .papaername {
     z-index: 3;
