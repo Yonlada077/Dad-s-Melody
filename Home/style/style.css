@@ -20,13 +20,13 @@ audio {
     position: fixed;
     width: 26%;
     /* height: 20%; */
-    top: 11%;
+    top: 2%;
     left: 11%;
 }
 .about {
     position: fixed;
     width: 11%;
-    margin-top: 17%;
+    margin-top: 14%;
     margin-left: 19%;
 }
 
@@ -106,7 +106,7 @@ audio {
     top: 21%;
     left: -26%;
     opacity: 1.7;
-    animation: cloud-move 30s var(--fn, linear) infinite;
+    animation: cloud-move 20s var(--fn, linear) infinite;
     will-change: transform;
     z-index: -999;
 
@@ -121,7 +121,7 @@ audio {
     top: 21%;
     left: 38%;
     opacity: 2.7;
-    animation: clouds-move 30s var(--fn, linear) infinite;
+    animation: clouds-move 20s var(--fn, linear) infinite;
     will-change: transform;
     z-index: -999;
 }
