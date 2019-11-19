@@ -207,6 +207,7 @@ body {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     left:84%;
+    font-family: 'Maitree', serif;
   }
   
   .dropdown-content a {
@@ -925,12 +926,12 @@ body {
     .te5 {
         position: absolute;
         /* width: 10%; */
-        left: 86%;
-        top: 14.5em;
+        left: 93%;
+        top: 15.5em;
         z-index: 30;
     }
     .inte5 {
-        width: 10em;
+        width: 8em;
     }
     .inte5:hover {
         transform: scale(1.3);
@@ -1127,15 +1128,15 @@ body{
     .tra {
         position: absolute;
         max-width: 25%;
-        margin-top: 75%;
-        margin-left: 56%;
+        margin-top: 83%;
+        margin-left: 64%;
         z-index: 29;
     }
     .prawat {
         position: absolute;
         max-width: 50%;
-        margin-top: 69%;
-        margin-left: 44%;
+        margin-top: 80%;
+        margin-left: 50%;
         z-index: 29;
     }
     
@@ -1145,12 +1146,12 @@ body{
         max-width: 74%;
         height: 200rem;
         margin-left: 45%;
-        margin-top: 88%;
+        margin-top: 98%;
         /* overflow: scroll; */
     }
     .p-font {
         font-size: 16px;
-        line-height: 44px;
+        line-height: 39px;
         color: #71512e;
     }
     
@@ -1170,12 +1171,12 @@ body{
     .te1 {
         position: absolute;
         /* width: 10%; */
-        left: 16%;
-        top: 16.5em;
+        left: 24%;
+        top: 21.5em;
         z-index: 30;
     }
     .inte1 {
-        width: 11em;
+        width: 9em;
     }
     
     .inte1:hover {
@@ -1186,8 +1187,8 @@ body{
     .te2 {
         position: absolute;
         /* width: 10%; */
-        left: 34.5%;
-        top: 18em;
+        left: 42.5%;
+        top: 23em;
         z-index: 30;
     }
     .inte2 {
@@ -1201,8 +1202,8 @@ body{
     .te3 {
         position: absolute;
         /* width: 10%; */
-        left: 62%;
-        top: 15em;
+        left: 67%;
+        top: 20em;
         z-index: 30;
     }
     .inte3 {
@@ -1217,11 +1218,11 @@ body{
         position: absolute;
         /* width: 10%; */
         left: 78%;
-        top: 12.5em;
+        top: 17.5em;
         z-index: 30;
     }
     .inte4 {
-        width: 12em;
+        width: 9em;
     }
     .inte4:hover {
         transform: scale(1.3);
@@ -1231,12 +1232,12 @@ body{
     .te5 {
         position: absolute;
         /* width: 10%; */
-        left: 99%;
-        top: 11.5em;
+        left: 107%;
+        top: 17.5em;
         z-index: 30;
     }
     .inte5 {
-        width: 9em;
+        width: 7em;
     }
     .inte5:hover {
         transform: scale(1.3);
@@ -1250,7 +1251,8 @@ body{
     }
     .nm {
         position: absolute;
-        margin-top: -1%;
+        margin-top:  -38%;
+
         left: 56%;
         width: 30%;
     }
@@ -1432,7 +1434,7 @@ body{
     .tra {
         position: absolute;
         max-width: 40%;
-        margin-top: 130%;
+        margin-top: 145%;
         margin-left: 96%;
         z-index: 29;
     }
@@ -1450,12 +1452,12 @@ body{
         max-width: 116%;
         height: 200rem;
         right: -77%;
-        margin-top: 163%;
+        margin-top: 168%;
         /* overflow: scroll; */
     }
     .p-font {
         font-size: 16px;
-        line-height: 44px;
+        line-height: 40px;
         color: #71512e;
     }
     
@@ -1753,20 +1755,20 @@ body{
         max-width: 116%;
         height: 200rem;
         right: -77%;
-        margin-top: 163%;
+        margin-top: 192%;
         /* overflow: scroll; */
     }
     .p-font {
         font-size: 16px;
-        line-height: 44px;
+        line-height: 40px;
         color: #71512e;
     }
     
     .footer {
         z-index: 999;
         position: absolute;
-        left: -49%;
-        width: 226%;
+        left: -54%;
+        width: 238%;
         background-color: #373B44;
         color: white;
         text-align: center;

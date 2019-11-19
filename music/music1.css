@@ -32,6 +32,12 @@ body {
 
 
 }
+#reflection{
+    width: 24%;
+    left: -8%;
+    top: 0;
+    z-index: 20;
+}
 .dropdown {
   float: right;
   top:10%;

@@ -106,14 +106,14 @@ audio {
     top: 21%;
     left: -26%;
     opacity: 1.7;
-    animation: cloud-move 20s var(--fn, linear) infinite;
+    animation: cloud-move 30s var(--fn, linear) infinite;
     will-change: transform;
     z-index: -999;
 
 }
-@keyframes cloud-move {
-    from { transform: translateX(-110%) }
-    to { transform: translateX(110vw) }
+@keyframes clouds-move {
+    from { transform: translateX(110vw) }
+    to { transform: translateX(-110%) }
   }
 .rcloud {
     position: fixed;
@@ -121,14 +121,15 @@ audio {
     top: 21%;
     left: 38%;
     opacity: 2.7;
-    animation: clouds-move 20s var(--fn, linear) infinite;
+    animation: clouds-move 30s var(--fn, linear) infinite;
     will-change: transform;
     z-index: -999;
 }
-@keyframes clouds-move {
-    from { transform: translateX(110vw) }
-    to { transform: translateX(-110%) }
+@keyframes cloud-move {
+    from { transform: translateX(-110%) }
+    to { transform: translateX(110vw) }
   }
+
 
 @media only screen and (max-width: 1230px) {
     .rama9 {
