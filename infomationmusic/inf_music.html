@@ -147,13 +147,13 @@
         spaceBetween: 30,
         effect: 'fade',
         // initialSlide: 2,
-        loop: false,
+        loop: true,
         navigation: {
             nextEl: '.next',
             prevEl: '.prev'
         },
         // mousewheel: {
-        //     // invert: false
+        //     invert: false
         // },
         on: {
             init: function(){
@@ -165,6 +165,8 @@
 
                 $('.img__item').removeClass('active');
                 $('.img__item#'+ infomation).addClass('active');
+
+
             }
         }
 
@@ -183,9 +185,6 @@
 
     });
 
-    $(".js-fav").on("click", function() {
-        $(this).find('.heart').toggleClass("is-active");
-    });
     </script>
 </body>
 </html>
