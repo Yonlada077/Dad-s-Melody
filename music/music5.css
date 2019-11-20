@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Chonburi&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Maitree&display=swap');
+@font-face {
+  font-family: 'Trirong';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Trirong Regular'), local('Trirong-Regular'), url(https://fonts.gstatic.com/s/trirong/v5/7r3GqXNgp8wxdOdOn58o2JZg.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
 body {
-  font-family: 'Maitree', serif;
+  font-family: 'Trirong', sans-serif;
   font-weight: 500;
   background-image: url('./img/แบ้คกราว-01.png');
   overflow-x: hidden;
@@ -18,8 +26,8 @@ body {
 .title {
     font-family: 'Chonburi', cursive;
     position: absolute;
-    top: 10%;
-    left: 42%;
+    top: 7%;
+    left: 38%;
     width: 40%;
     font-size: 35px;  
     color: #71512e;
@@ -31,6 +39,12 @@ body {
   z-index: 1000;
 
 
+}
+#reflection{
+    width: 24%;
+    left: -8%;
+    top: 0;
+    z-index: 20;
 }
 .dropdown {
   float: right;
@@ -264,6 +278,7 @@ li {
   float: left;
 }
 li a {
+  font-family: 'Maitree', serif;
   display: block;
   color:#71512e;
   text-align: center;
@@ -483,7 +498,10 @@ ul {
     left: 23%;
     width: 58%;
 }
-
+li a {
+    padding: 13px 34px;
+    font-size: 18px;
+}
 }
 @media screen and (max-width: 1200px) {
 ul {
@@ -491,8 +509,13 @@ ul {
     width: 64%;
     top: 82%;
 }
+li a {
+    padding: 13px 32px;
+    font-size: 18px;
+}
 .title {
-    left: 38%;
+    left: 35%;
+    top: 8%;
 }
 .textname {
     top: 106%;
@@ -557,7 +580,7 @@ ul {
     top: 82%;
 }
 .title {
-    left: 39%;
+    left: 34%;
     top: 15%;
 }
 p {
@@ -633,9 +656,18 @@ p {
   left: 1%;
   width: 37%;  
   }
+.dropdown {
+    float: right;
+    top: 6%;
+    width: 16%;
+    font-size: 10%;
+}
+.dropdown-content {
+    left: 80%;
+}
 .title {
-    left: 38%;
-    top: 15%;
+    left: 34%;
+    top: 18%;
     font-size: 30px;
 }
 #needle {
@@ -720,28 +752,31 @@ ul {
   left: -1%;
   width: 50%;  
   }
-  .dropdown {
-  top:15%;
-  width: 15%;
+.dropdown {
+    top: 15%;
+    width: 22%;
 }
 .dropdown .dropbtn {
   font-size: 25px;  
 }
 .dropdown-content {
-  left:80%;
+    left: 73%;
 }
 .dropdown-content a {
-  font-size: 10px;
+  font-size: 15px;
 }
 .title {
-    left: 34%;
-    top: 17%;
-    font-size: 29px;
+    left: 33%;
+    top: 8%;
+    font-size: 26px;
 }
 .music {
     top: -20%;
 }
 #record {
+    top: -20%;
+}
+#reflection{
     top: -20%;
 }
 #needle {
@@ -850,8 +885,8 @@ h1 {
     font-size: 0.6em;
 }
 li a {
-  padding: 12px 36px;
-  font-size: 15px;
+    padding: 14px 17px;
+    font-size: 15px;
 }
 }
 @media screen and (max-width: 576px) {
@@ -875,9 +910,9 @@ li a {
   font-size: 15px;
 }
 .title {
-    left: 34%;
-    top: 12%;
-    font-size: 24px;
+    left: 33%;
+    top: 11%;
+    font-size: 18px;
 }
 .music {
     top: -40%;
@@ -924,6 +959,11 @@ p {
     top: -46%;
 }
 #record {
+    width: 25%;
+    left: -5%;
+    top: -40%;
+}
+#reflection{
     width: 25%;
     left: -5%;
     top: -40%;
@@ -1031,18 +1071,25 @@ h1 {
     font-size: 0.5em;
 }
 li a {
-  padding: 12px 36px;
-  font-size: 12px;
+    padding: 22px 9px;
+    font-size: 12px;
 }
 }
 @media screen and (max-width: 411px) {
 .title {
-    left: 34%;
+    left: 33%;
     top: 9%;
-    font-size: 17px;
+    font-size: 14px;
 }
 .dropdown-content {
     min-width: 125px;
+}
+.dropdown {
+    top: 15%;
+    width: 30%;
+}
+.dropdown-content a {
+  font-size: 10px;
 }
 .music {
     top: -54%;
@@ -1053,6 +1100,11 @@ p {
     top: -50%;
 }
 #record {
+    width: 24%;
+    left: -4%;
+    top: -54%;
+}
+#reflection{
     width: 24%;
     left: -4%;
     top: -54%;
@@ -1075,7 +1127,7 @@ p {
     left: -259%;
 }
 li a {
-    padding: 11px 35px;
+    padding: 17px 14px;
     font-size: 10px;
 }
 ul {
