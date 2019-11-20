@@ -328,7 +328,7 @@ li a:hover {
 
 .papaermusic{
   position: absolute;
-  top: 137%;
+  top: 149%;
   left: 14%;
   width: 59%;
 
@@ -337,7 +337,7 @@ li a:hover {
   position: absolute;
   z-index: 3;
   margin-top: 0;
-  top: 164%;
+  top: 175%;
   left: 30%;
   font-weight: 200;
   color: #71512e;
@@ -662,7 +662,7 @@ ul {
     width: 81%;
 }
 .textmusic {
-    top: 153%;
+    top: 161%;
 }
 .pic1 {
     width: 27%;
@@ -792,12 +792,12 @@ ul {
     left: 86%;
 }
 .papaermusic {
-    top: 114%;
+    top: 120%;
     left: 5%;
     width: 86%;
 }
 .textmusic {
-    top: 132%;
+    top: 143%;
     font-size: 15px;
     left: 23%;
 }
@@ -825,7 +825,7 @@ ul {
     z-index: 3;
     position: absolute;
     left: -50%;
-    bottom: -166%;
+    bottom: -189%;
     width: 200%;
     background-color: #373B44;
     color: white;
@@ -958,13 +958,13 @@ ul {
     top: 89%;
 }
 .papaermusic {
-    top: 94%;
+    top: 99%;
     left: 5%;
     width: 93%;
     height: 149%;
 }
 .textmusic {
-    top: 113%;
+    top: 118%;
     font-size: 15px;
     left: 23%;
 }
@@ -1010,7 +1010,7 @@ ul {
     z-index: 3;
     position: absolute;
     left: -50%;
-    bottom: -144%;
+    bottom: -148%;
     width: 200%;
     background-color: #373B44;
     color: white;
@@ -1102,13 +1102,13 @@ ul {
     width: 123%;
 }
 .papaermusic {
-    top: 65%;
+    top: 69%;
     left: 3%;
     width: 93%;
     height: 139%;
 }
 .textmusic {
-    top: 83%;
+    top: 88%;
     font-size: 11px;
     left: 16%;
 }
@@ -1181,7 +1181,7 @@ ul {
     z-index: 3;
     position: absolute;
     left: -50%;
-    bottom: -104%;
+    bottom: -108%;
     width: 200%;
     background-color: #373B44;
     color: white;
