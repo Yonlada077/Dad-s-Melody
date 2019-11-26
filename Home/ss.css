@@ -166,6 +166,8 @@ h1 {
     margin-left: -56%;
     margin-top: 59%;
     z-index: 99;
+    animation-name: bounceIn;
+    animation-duration: 3s;
 }
 
 .inf1 {
@@ -457,7 +459,7 @@ h1 {
     }
     .friday {
         max-width: 63%;
-        left: 3%;
+        left: -5%;
     }
     .bg-in {
         top: 1%;
