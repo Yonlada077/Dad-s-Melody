@@ -558,9 +558,12 @@ h1 {
     .top-logo-img {
         width: 50%;
     }
-    .dropdown .dropbtn {
-        margin: 0 0 0 -44px;
-    }
+.dropdown .dropbtn {
+    margin: 0 0 0 -294px;
+}
+.dropdown-content {
+    left: 43%;
+}
     .friday {
         max-width: 48%;
         left: 0em;
