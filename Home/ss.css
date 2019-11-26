@@ -6,6 +6,7 @@ body {
     padding: 0;
     overflow-x: hidden;
 }
+
 audio {
     opacity: 0;
 }
@@ -42,7 +43,7 @@ audio {
     color: #71512e;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit;
+    font-family: Chonburi;
     margin: 0;
 }
 
@@ -88,7 +89,8 @@ audio {
 .bg {
     position: relative;
     width: 100%;
-    top: -28em;
+    top: -28%;
+    left: 1%;
 }
 
 .img-content {
@@ -111,6 +113,7 @@ audio {
     top: 22em;
     right: 31em;
 }
+
 .text {
     overflow: scroll;
     position: absolute;
@@ -153,165 +156,184 @@ audio {
 h1 {
     font-size: 0.75em;
 }
+
 .img-in-paper {
     position: absolute;
     /* max-width: 100%; */
 }
+
 .f1 {
     margin-left: -56%;
     margin-top: 59%;
     z-index: 99;
 }
+
 .inf1 {
     width: 28%;
 }
+
 .f2 {
     margin-left: 38%;
     margin-top: -49%;
-   
     z-index: 99;
-
 }
+
 .inf2 {
     width: 60%;
-    margin-left: 97%;
+    margin-left: 109%;
     margin-top: 5%;
 }
+
 .ff1 {
     margin-left: -9%;
     margin-top: 67%;
 }
+
 .f3 {
-   
     z-index: 99;
 }
+
 .inf3 {
     width: 33%;
     margin-left: -32%;
     margin-top: 46%;
-    
 }
+
 .inf5 {
     width: 16%;
 }
+
 .f5 {
     margin-left: -26%;
     margin-top: -10%;
-   
     z-index: 99;
 }
+
 .inf6 {
     width: 53%;
 }
+
 .f6 {
     position: absolute;
     right: -85%;
     margin-top: -69%;
-  
     z-index: 99;
 }
+
 .f7 {
     position: absolute;
     margin-left: -52%;
     margin-top: 117%;
- 
     z-index: 99;
 }
+
 .inf7 {
     width: 56%;
 }
+
 .inf8 {
     width: 57%;
 }
+
 .f8 {
     position: absolute;
     right: -71%;
     margin-top: 120%;
-   
     z-index: 99;
 }
+
 .f9 {
     position: absolute;
-    margin-left: -52%;
+    margin-left: -41%;
     margin-top: 228%;
-  
     z-index: 99;
 }
+
 .inf9 {
     width: 49%;
 }
+
 .f10 {
     position: absolute;
     margin-left: -54%;
     margin-top: 257%;
-   
     z-index: 99;
 }
+
 .inf10 {
     width: 56%;
 }
+
 .inf11 {
-    width: 46%;
+    width: 28%;
 }
+
 .f11 {
     position: absolute;
-    right: -86%;
+    right: -97%;
     margin-top: 241%;
- 
     z-index: 99;
 }
+
 .f12 {
     position: absolute;
-    margin-left: -44%;
+    margin-left: -35%;
     margin-top: 446%;
     z-index: 99;
 }
+
 .inf12 {
     width: 56%;
 }
+
 .inf13 {
     width: 57%;
 }
+
 .f13 {
     position: absolute;
     right: -58%;
     margin-top: 423%;
-  
     z-index: 99;
 }
+
 .inf14 {
     width: 66%;
 }
+
 .f14 {
     position: absolute;
     right: -43%;
     margin-top: 443%;
- 
     z-index: 99;
 }
+
 .f15 {
     position: absolute;
     margin-left: -46%;
     margin-top: 578%;
-  
     z-index: 99;
 }
+
 .inf15 {
     width: 66%;
 }
+
 .f16 {
     position: absolute;
     margin-left: -47%;
     margin-top: 599%;
-   
     z-index: 99;
 }
+
 .inf16 {
     width: 39%;
 }
+
 .inf17 {
-    width: 55%;
+    right: -72%
 }
+
 .f17 {
     position: absolute;
     right: -64%;
@@ -336,17 +358,15 @@ h1 {
     .footer {
         width: 105%;
     }
-    
 }
 
 @media only screen and (max-width: 1326px) {
-    body{
+    body {
         overflow-x: hidden;
     }
-
-
     .text {
         height: 229em;
+        left: 3%;
     }
     .img-in-paper {
         width: 63%;
@@ -354,15 +374,14 @@ h1 {
     .f1 {
         margin-left: -45%;
         margin-top: 3%;
-
     }
     .inf2 {
-        margin-left: 88%;
+        margin-left: 124%;
     }
 }
 
 @media only screen and (max-width: 1255px) {
-    body{
+    body {
         overflow-x: hidden;
     }
     .text {
@@ -371,7 +390,7 @@ h1 {
 }
 
 @media only screen and (max-width: 1200px) {
-    body{
+    body {
         overflow-x: hidden;
     }
     .text {
@@ -381,11 +400,19 @@ h1 {
         width: 108%;
     }
     .f1 {
-        margin-top: 49%;
+        margin-top: 16%;
+        right: -15%;
+        position: relative;
     }
+    .f6 {
+        right: -108%;
+        position: relative;
+        /* top: 60%; */
+    }
+}
 
 @media only screen and (max-width: 1100px) {
-    body{
+    body {
         overflow-x: hidden;
     }
     .text {
@@ -422,7 +449,7 @@ h1 {
 }
 
 @media only screen and (max-width: 1024px) {
-    body{
+    body {
         overflow-x: hidden;
     }
     .top-logo-img {
@@ -430,21 +457,22 @@ h1 {
     }
     .friday {
         max-width: 63%;
-        right: 3em;
+        left: 3%;
     }
     .bg-in {
-        top: 1em;
-        right: -1em;
+        top: 1%;
+        right: -10%;
     }
     .text {
         font-size: 20px;
         line-height: 37px;
         height: 203em;
+        left: 9%;
     }
     .footer {
         z-index: 999;
         position: absolute;
-        width: 109%;
+        width: 121%;
         background-color: #373B44;
         color: white;
         text-align: center;
@@ -453,381 +481,271 @@ h1 {
         text-align: center;
         margin-top: 318%;
     }
-    .f1 {
-        margin-top: 16%;
-    }
     .f15 {
-        margin-left: -53%;
+        margin-left: -24%;
+        margin-top: 270%;
+    }
+    .inf15 {
+        width: 48%;
     }
     .f16 {
-        margin-left: -56%;
-        margin-top: 605%;
+        margin-left: -23%;
+        margin-top: 292%;
+    }
+    .inf16 {
+        width: 31%;
+    }
+    .inf17 {
+        width: 32%;
     }
     .f17 {
-        right: -83%;
+        right: -71%;
+        margin-top: 293%;
     }
     .inf11 {
-        width: 36%;
+        width: 28%;
     }
     .f11 {
-        right: -122%;
-        margin-top: 257%;
+        right: -111%;
+        margin-top: 149%;
+        position: relative;
     }
     .f6 {
-        right: -112%;
+        right: -108%;
+        position: relative;
+        /* top: 60%; */
+    }
+    .inf5 {
+        width: 15%;
+    }
+    .f5 {
+        position: relative;
+        /* margin-left: -26%; */
+        margin-top: -10%;
+        z-index: 99;
+        left: 16%;
     }
     .inf6 {
-        width: 42%;
+        width: 28%;
+    }
+    .inf3 {
+        position: relative;
+        width: 31%;
+        /* margin-left: -32%; */
+        margin-top: 45%;
+        left: 14%;
+    }
+    .inf12 {
+        width: 37%;
+    }
+    .inf7 {
+        width: 38%;
     }
     .f7 {
-        margin-left: -61%;
+        margin-left: -26%;
     }
     .f8 {
-        right: -94%;
+        right: -109%;
+        position: relative;
+    }
+    .inf8 {
+        width: 42%;
+    }
+    .inf9 {
+        width: 39%;
+    }
+    .f9 {
+        position: absolute;
+        margin-left: -27%;
+        margin-top: 158%;
+        z-index: 99;
+    }
+    .f10 {
+        margin-left: -51%;
+        margin-top: 187%;
+    }
+    .inf10 {
+        width: 49%;
+    }
+    .f12 {
+        position: absolute;
+        margin-left: -14%;
+        margin-top: 182%;
+        z-index: 99;
+    }
+    .inf13 {
+        width: 49%;
+    }
+    .f13 {
+        right: -99%;
+        margin-top: 122%;
+    }
+    .f14 {
+        right: -76%;
+        margin-top: 141%;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    body{
+    body {
         overflow-x: hidden;
     }
+    .navbar {
+        overflow-x: hidden;
+    }
+    .bg {
+        top: -28%;
+        left: 10%;
+    }
+    .bg-in {
+        top: 1em;
+        right: -5em;
+    }
+    .friday {
+        max-width: 63%;
+        left: 39px;
+    }
     .text {
+        left: 15%;
+        position: absolute;
         font-size: 20px;
         line-height: 37px;
         height: 144em;
     }
+    .img-in-paper {
+        left: 13%;
+    }
     .footer {
         margin-top: 246%;
-        height: 79px;
-    }
-    .f6 {
-        right: -159%;
-    }
-    .inf6 {
-        width: 33%;
-    }
-    .inf8 {
-        width: 49%;
-    }
-    .f8 {
-        right: -125%;
-    }
-    .inf11 {
-        width: 30%;
-    }
-    .f11 {
-        right: -163%;
-    }
-    .inf9 {
-        width: 36%;
-    }
-    .inf10 {
-        width: 41%;
-    }
-    .inf12 {
-        width: 36%;
-    }
-    .f14 {
-        right: -71%;
-        margin-top: 463%;
-    }
-    .inf14 {
-        width: 51%;
-    }
-    .f13 {
-        right: -93%;
-    }
-    .inf15 {
-        width: 45%;
-    }
-    .inf16 {
-        width: 32%;
-    }
-    .inf17 {
-        width: 36%;
-    }
-    .f17 {
-        right: -112%;
-    }
-}
-
-@media only screen and (max-width: 635px) {
-    body{
-        overflow-x: hidden;
-    }
-    .top-logo-img {
-        width: 50%;
-    }
-    .dropdown .dropbtn {
-        margin: 0 0 0 -44px;
-    }
-    .friday {
-        max-width: 48%;
-        left: 0em;
-    }
-    .bg-in {
-        top: 10em;
-        right: 13em;
-    }
-    .text {
-        top: 198%;
-        font-size: 17px;
-        line-height: 28px;
-        height: 138em;
+        width: 135%;
+        overflow: hidden;
     }
     .f1 {
-        margin-top: 51%;
+        right: 1%;
     }
-    .inf6 {
-        width: 25%;
-    }
-    .f6 {
-        right: -197%;
-    }
-    .inf7 {
-        width: 44%;
-    }
-    .inf8 {
-        width: 41%;
-    }
-    .f8 {
-        right: -156%;
-    }
-    .inf11 {
-        width: 23%;
-    }
-    .f11 {
-        right: -200%;
-    }
-    .inf13 {
-        width: 37%;
-    }
-    .f13 {
-        right: -127%;
-    }
-    .f14 {
-        right: -92%;
-        margin-top: 450%;
-    }
-    .inf12 {
-        width: 28%;
-    }
-    .inf17 {
-        width: 31%;
-    }
-    .f17 {
-        right: -141%;
-    }
-    .inf15 {
-        width: 42%;
-    }
-    .inf16 {
-        width: 30%;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    body{
-        overflow-x: hidden;
-    }
-    .bg-in {
-        top: 8em;
-        right: 10em;
-    }
-    .text {
-        top: 198%;
-        font-size: 15px;
-        height: 106em;
-    }
-    .f6 {
-        right: -252%;
-    }
-    .inf8 {
-        width: 33%;
-    }
-    .f8 {
-        right: -203%;
-    }
-    .inf11 {
-        width: 21%;
-    }
-    .f11 {
-        right: -255%;
+    .f2 {
+        margin-top: -49%;
+        z-index: 99;
+        position: relative;
+        left: -28%;
     }
     .inf3 {
-        margin-top: -29%;
+        left: 2%;
     }
-    .inf14 {
-        width: 45%;
+    .inf5 {
+        right: 9%;
+        position: relative;
     }
-    .f14 {
-        right: -123%;
+    .f6 {
+        right: -92%;
+    }
+    .f7 {
+        margin-left: -47%;
+    }
+    .f8 {
+        right: -95%;
+    }
+    .inf9 {
+        width: 32%;
+    }
+    .f9 {
+        margin-left: -43%;
+    }
+    .inf10 {
+        width: 36%;
+    }
+    .f11 {
+        right: -95%;
     }
     .inf13 {
         width: 35%;
     }
     .f13 {
-        right: -164%;
+        right: -109%;
     }
-    .inf17 {
+    .inf14 {
+        width: 50%;
+    }
+    .inf12 {
+        width: 25%;
+    }
+    .f12 {
+        margin-left: -27%;
+    }
+    .inf15 {
+        width: 32%;
+    }
+    .f15 {
+        margin-left: -32%;
+    }
+    .inf16 {
         width: 28%;
     }
+    .f16 {
+        margin-left: -42%;
+    }
     .f17 {
-        right: -184%;
+        right: -121%;
     }
-    .footer {
-        margin-top: 89%;
-    }
-}
-@media only screen and (max-width: 465px) {
-    body{
+    .img-in-text {
         overflow-x: hidden;
-    }
-    .text {
-        height: 104em;
-    }
-    .footer {
-        margin-top: 67%;
-        height: 79px;
-        width: 120%;
-    }
-}
-@media only screen and (max-width: 430px) {
-    body{
-        overflow-x: hidden;
-    }
-    .text {
-        overflow: scroll;
-        position: absolute;
-        max-width: 57%;
-        top: 198%;
-        font-size: 15px;
-        line-height: 25px;
-    }
-    .footer {
-        margin-top: 30%;
-        height: 79px;
     }
 }
 
-@media only screen and (max-width: 415px) {
-    body{
+@media only screen and (max-width: 427px) {
+    .friday {
+        max-width: 48%;
+        left: 14%;
+    }
+    body {
         overflow-x: hidden;
     }
-    .top-logo-img {
-        width: 40%;
+    .img-in-paper {
+        top: 179%;
+    }
+    .navbar {
+        width: 144%;
+        left: -56%;
+    }
+    .text {
+        height: 63em;
+        top: 181%;
     }
     .bg-in {
         top: 6em;
-        right: 9em;
+        right: 6em;
     }
-    .inf6 {
-        width: 14%;
-    }
-    .f6 {
-        right: -356%;
-    }
-    .inf8 {
-        width: 28%;
-    }
-    .f8 {
-        right: -273%;
-         margin-top: 45%;
-        
-    }
-    .f7 {
-        margin-top: 25%;
-    }
-    .inf11 {
-        width: 17%;
-    }
-    .f11 {
-        right: -346%;
-        top: 68%;
-    }
-    .inf9 {
-        margin-top: -30%;
-    }
-    .inf10 {
-        margin-top: -24%;
-    }
-    .inf12 {
-        margin-top: -37%;
-    }
-    .inf13 {
-        width: 25%;
+    .footer {
+        margin-top: 63%;
+        height: 79px;
+        overflow-x: hidden;
     }
     .f13 {
-        right: -217%;
-        margin-top: 383%;
-    }
-    .inf13 {
-        width: 25%;
+        right: -183%;
+        
     }
     .f14 {
-        right: -157%;
-        margin-top: 415%;
+        right: -133%;
+        margin-top: 159%;
     }
-    .inf14 {
-        width: 34%;
-    }
-    .inf17 {
-        width: 19%;
-    }
-    .f17 {
-        right: -248%;
-        margin-top: 563%;
-    }
-    .inf15 {
-        width: 40%;
-    }
-    .f15 {
-        margin-left: -53%;
-        margin-top: 528%;
+    .f12 {
+        margin-left: -31%;
     }
     .f16 {
-        margin-top: 562%;
+        margin-left: -35%;
+        top: 68%;
     }
+    .f15 {
+        margin-left: -37%;
+        margin-top: 83%;
+       
     }
-    
-}
-
-@media only screen and (max-width: 414px) {
-    body{
-        overflow-x: hidden;
+    .inf17 {
+        width: 27%;
     }
-    .text {
-        font-size: 10px;
-        line-height: 19px;
-        height: 135em;
-    }
-    .footer {
-        margin-top: 14%;
-        height: 99px;
-    }
-}
-
-@media only screen and (max-width: 375px) {
-    body{
-        overflow-x: hidden;
-    }
-    .text {
-        font-size: 10px;
-        line-height: 19px;
-        height: 114em;
-    }
-    .footer {
-        margin-top: -30%;
-        height: 115px;
-    }
-}
-
-@media only screen and (max-width: 296px) {
-    body{
-        overflow-x: hidden;
-    }
-    .bg-in {
-        top: 0em;
-        right: 0em;
+    .f17 {
+        right: -141%;
+        margin-top: 180%;
+        
     }
 }
