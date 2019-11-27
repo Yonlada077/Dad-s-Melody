@@ -18,8 +18,8 @@ body {
 
 .top-logo {
   z-index: 3;
-  position: absolute;
-  top: 20%;
+  position: fixed;
+  top: 0;
   left: -1%;
   width: 80%;  
 }
@@ -35,7 +35,7 @@ body {
 .navbar {
   font-family: 'Chonburi', cursive;
   width: 100%;
-  position: absolute;
+  position: fixed;
   z-index: 1000;
 
 
