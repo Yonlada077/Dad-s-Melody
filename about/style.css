@@ -1722,9 +1722,9 @@ body{
     }
     .bg-in {
         position: absolute;
-        max-width: 203%;
-        margin-top: 20%;
-        margin-left: 69px;
+        max-width: 163%;
+        margin-top: 21%;
+        margin-left: 155px;
         z-index: 5;
         width: 90em;
     }
@@ -1737,14 +1737,14 @@ body{
     .tra {
         position: absolute;
         max-width: 40%;
-        margin-top: 178%;
+        margin-top: 130%;
         margin-left: 96%;
         z-index: 29;
     }
     .prawat {
         position: absolute;
-        max-width: 108%;
-        margin-top: 162%;
+        max-width: 87%;
+        margin-top: 118%;
         margin-left: 73%;
         z-index: 29;
     }
@@ -1755,7 +1755,7 @@ body{
         max-width: 116%;
         height: 200rem;
         right: -77%;
-        margin-top: 199%;
+        margin-top: 192%;
         /* overflow: scroll; */
     }
     .p-font {
@@ -1781,7 +1781,7 @@ body{
         position: absolute;
         /* width: 10%; */
         left: 25%;
-        top: 16em;
+        top: 12em;
         z-index: 30;
     }
     .inte1 {
@@ -1796,8 +1796,8 @@ body{
     .te2 {
         position: absolute;
         /* width: 10%; */
-        left: 74.5%;
-        top: 17em;
+        left: 64.5%;
+        top: 14em;
         z-index: 30;
     }
     .inte2 {
@@ -1826,8 +1826,8 @@ body{
     .te4 {
         position: absolute;
         /* width: 10%; */
-        left: 147%;
-        top: 12.5em;
+        left: 141%;
+        top: 8.5em;
         z-index: 30;
     }
     .inte4 {
@@ -1841,8 +1841,8 @@ body{
     .te5 {
         position: absolute;
         /* width: 10%; */
-        left: 184%;
-        top: 12.5em;
+        left: 183%;
+        top: 8.5em;
         z-index: 30;
     }
     .inte5 {
